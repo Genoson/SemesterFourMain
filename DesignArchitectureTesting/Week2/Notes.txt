@@ -1,0 +1,53 @@
+Monday morning class
+
+all the recommended reading in chapter 1 of clean code is useful knowledge
+to our career path. Maybe not this course specifically.
+
+thoughtworks.com has a great resource 
+
+Despite curly braces being optional is some situations, use them anyways
+
+
+Class are the core structural element of java code.
+classes have attributes, methods, constructors, and inner classes.
+instance variables
+
+
+Interface. A way tog ive different type distinction and required methods
+for a class.
+Class implements an interface.
+Interface can be used to make things searchable
+among many other things.
+
+Naming convention that encode data type, access modifier, and scope 
+etc are not reccomended. 
+
+class names are Nouns not verbs as a general rule
+
+method/ functions names are verbs not nouns as a general rule
+get, set, is etc are good method prefixes
+
+POJO -. Plain old java object.
+
+Contracts -. A contract is a set of rules that define the behavior of a class/method
+
+if comments are not maintained they become a burden on code maintenance
+Better to use descriptive name for methods and variables
+
+static methods are less testable than non-static methods
+
+Common practice to refactor code to make them more testable and useful
+
+if at all possible methods should do one thing. (singleton pattern)
+
+if/ switch statements should be factored out to minimize the 
+code in each clause.
+
+Next class finish on these readings. and intro to a unit test... simple
+Maven project, similar to npm from javascript
+
+going to get to spring boot later in the semester\
+
+JUnit
+
+Next monday we will workshop a basic maven project with JUnit tests... get ahead

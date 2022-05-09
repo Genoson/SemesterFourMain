@@ -1,0 +1,92 @@
+First class with Dr. Qurrat-Ul-Ain Malik
+^^ Annie is her nickname
+^^ very well educated and well travelled
+^^ Canada is her end game
+^^ Teaching in 3 colleges
+
+main.java contains a bunch of java practice from w3schools
+will continue to add more java practice from w3schools
+
+Dr. Annie will be giving lots of practice and lecture material to read and review
+^^ intends to send it out on Mondays
+^^ daily tasks don't need to be submitted
+^^ solutions will be posted by Dr. Annie eventually
+^^ try not to give other students the answers, but offer help
+
+
+Data types: 
+primitive data types:
+    int
+    double
+    float
+    char
+    boolean
+    byte
+    short
+    long
+
+reference data types:
+    arrays
+    objects
+    classes
+    interfaces
+
+Camel Case is the preferred naming convention in java
+use descriptive names for variables and methods
+classes should be named in Pascal case( capitol the first letter)
+
+access modifiers:
+    public - accessible to any other class
+    private - accessible only within the class
+    protected - accessible within the class and subclasses
+    default - accessible within the class and subclasses
+
+attribute modifiers:
+    static - accessible within the class and subclasses
+    final - cannot be changed
+    transient - not serialized
+    volatile - not serialized
+
+attributes and methods:
+    attributes:
+        instance variables
+        static variables
+        constants   
+    methods:
+        instance methods
+        static methods
+        constructors
+        static initializers
+
+printf formatted output:
+    %d - integer
+    %f - float
+    %s - string
+    %c - character
+    %b - boolean
+    %e - exponential
+    %g - general
+    %h - hexadecimal
+    %o - octal
+    %p - pointer
+    %x - hexadecimal
+    %%% - percent
+
+
+import java.util.Scanner; // allows for user input
+
+import java.util.*; // imports all classes in the java.util package
+
+comparison operators:
+    == - equal to
+    != - not equal to
+    > - greater than
+    < - less than
+    >= - greater than or equal to
+    <= - less than or equal to
+
+
+uml diagram:
+    used to visualize the relationships between classes
+    - is private
+    + is public

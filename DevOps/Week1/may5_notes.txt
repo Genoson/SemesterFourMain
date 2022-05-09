@@ -1,0 +1,75 @@
+Waterfall and agile, the road to devops
+
+software development lifecycle:
+plan
+define 
+design
+build
+test
+deploy
+
+software development lifecycle models:
+
+Waterfall - the first process models
+                - linear and sequential
+                - each step is a single unit of work
+                - the subsequent steps require the previous step to be completed
+                
+                - requirement gathering - setting out project requirements and documenting them
+                - design - creating a design document
+                - implementation - writing code in small units and testing
+                -integration - combining code from multiple developers and testing
+                - deployment - deploying the code to production
+                - maintenance - updating the code to keep it working or improve it
+
+
+Agile  - divide project into smaller units called sprints
+          - daily standup meeting to keep everyone up to date on progress and problems 
+
+          - initiation - discussion of the project vision and justifying relationships
+          - planning - defining the project scope and defining the project schedule
+          - development - writing code and testing, several sprints
+          - release - deployed code to production, monitored for issues
+          - retirement - deployment of an updated version of the code to production
+
+
+key differences:
+- Waterfall - sequential
+- Agile - incremental
+- Waterfall - fixed duration
+- Agile - flexible duration
+- Waterfall - fixed cost
+- Agile - variable cost
+- Waterfall - fixed schedule
+- Agile - flexible schedule
+- Waterfall - fixed resources
+- Agile - flexible resources
+- Waterfall - not very collaborative
+- Agile - more collaborative
+- Waterfall - Phases
+- Agile - Sprints
+- Waterfall - hard to add changes
+- Agile - easy to add changes
+- Waterfall - a single large project
+- Agile - multiple smaller projects
+- Waterfall - Testing is at the end
+- Agile - Testing is continuous
+
+
+devops is an evolution of the agile methodology
+devops uses a large number of tools,
+many are open source
+
+advantages of devops:
+- predictability - lower failure rate of new products
+- maintainability - easier to maintain and recover from failures
+- improved quality - lower defects
+- lower risk - less risk of failure, bugs, and security issues
+- cost efficient - less time to develop and deploy
+- stability - less risk of failure, bugs, and security issues
+- streamlined delivery process - less time to develop and deploy
+
+devops is good for large and small projects 
+
+
+

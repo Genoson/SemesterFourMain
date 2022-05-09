@@ -1,0 +1,56 @@
+Dev ops notes:
+In class assignment 1:
+
+what is Dev ops?
+The collaboration between developers and operations teams while 
+automating the deployment of applications.
+
+dev ops is popular because...
+it allows for continuous integration and deployment of applications allowing for
+the deployment of new features and bug fixes at a rapid pace.
+
+agile and dev ops?
+
+
+
+what is the goal of devops?
+One goal of Devops is to establish an environment where releasing 
+more reliable applications faster and more frequently can occur.
+
+
+which of the following steps are required for a successful devops?
+A. Plan the procedure.
+B. Write codes for functionality
+C. Makes the codes executable
+D. Run tests
+E. Run software on client system
+F. Monitor the working of the software and give feedback
+(All of them?)
+
+Acceptance testing is performed at the end of each iteration?
+
+7) Which one of the following techniques makes DevOps a successful methodology to develop and deliver software? 
+A. DevOps enables you to organize your teams around your organizational mission
+B. DevOps enables you to create your software with built-in quality and monitoring
+C. DevOps enables you to quickly identify, fix and learn from errors
+D. All above choices - its this one I think
+
+
+8) Which one of the following statements about DevOps is incorrect? 
+ A. DevOps is only suitable for start-up companies
+ B. DevOps is suitable for brownfield software products and services
+ C. DevOps is suitable for greenfield software products and services
+ D. Some of the most exemplary DevOps initiatives started in companies with giant and mature IT organizations.
+(D I think)
+
+9) Which model takes the longest time for delivery of an application.
+A. Agile model
+B. Waterfall model (this one i think)
+C. DevOps model
+D. None of the above 
+
+10) DevOps model is an extension of ----------
+A. Agile model (this one i think)
+B. Waterfall model
+C. Sprint model
+D. Scrum model

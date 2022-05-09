@@ -1,0 +1,52 @@
+first class with Jamie Cornick
+^^ been in tech field at 20+ years
+^^ nortel, IBM, canadian blood services, Breathsuite
+
+
+
+informal intro to the course
+
+We will be using java for this course as well :)
+
+We will be learning a lot of frameworks to facilitate the development of web applications.
+
+Text book as a reference to the concepts but we diverge after the intro
+
+Topics:
+
+OOP - object oriented programming
+
+Design patterns and common architecture archetypes
+
+unit testing, refactoring and regression testing
+
+Module 1: testing and test driven development (TDD)
+^^ the technique of thinking about testing first
+
+Module 2: design patterns in software architecture
+SOLID principles
+S - single responsibility principle
+O - open/closed principle
+L - Liskov substitution principle
+I - interface segregation principle
+D - dependency inversion principle
+
+Module 3: Revisiting your old projects
+^^ refactor an old project to use our new skills
+
+
+QAP will be after 3 weeks, staggered after the java courses QAP
+
+lots of recorded code demos
+
+JUnit testing framework is a main concept of this course
+
+Mock objects for testing
+
+Writing unit tests by the beginning of the 3rd week
+
+Jamie uses intelliJ
+^^ great for java, good to learn a new IDE
+
+MySQL will be our database of choice
+

@@ -1,0 +1,9 @@
+this course has the same structure of previous AWS courses and will have little 
+work to store in these folders. I will store copies of code I write and any notes I take here
+
+
+how do we deploy a web application?
+
+VPC CIDR Block
+-- how many ip address connections can exist
+-- how many subnets can exist
