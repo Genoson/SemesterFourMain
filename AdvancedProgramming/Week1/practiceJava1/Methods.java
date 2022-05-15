@@ -1,4 +1,4 @@
-package practiceJava1;
+package AdvancedProgramming.Week1.practiceJava1;
 //importing other classes
 // classes inside the same package? do not need to be imported
 //import practiceJava1.Address;

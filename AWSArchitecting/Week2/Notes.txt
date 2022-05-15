@@ -1,0 +1,121 @@
+Kennedy is showcasing Athena on AWS
+
+Athena is based on Presto
+^^ It allows SQL like queries to be executed in AWS against data in s3 buckets
+
+
+AWS has a ridiculous amount of services for all your needs on AWS
+They dont all need to be leveraged by every project, 
+however smart use of AWS services can cut down on production costs
+
+AWS can host any type of software project with the right architecture choices
+
+Kennedy is very knowledgeable about AWS services and what they are used for
+Pick his brain for my SampleDataProject architecture
+
+Security and privacy are paramount to AWS
+^^ learning how to set up and maintain a secure project, I want to
+
+Kennedy uses intelliJ
+
+Be aware that most deployed projects run on linux
+docker images (or kubernetes) are used to run most projects.
+especially cloud based projects
+
+dockerhub is a repo of docker images
+can use docker images to grab compoenents of a project
+
+
+Once an image is loaded to AWS it can be used to run a project
+you need to have resources set up to allocate to the Project
+define tasks and listeners for the project
+
+on AWS you can launch static, dynamic, elastic and serverless projects
+
+Well Architected framework
+
+Availabillity refers to resources waiting to be accessed and able to be accessed
+
+scalability refers to the ability to change amount of availability along with demand
+
+AWS was built out as in house services 
+
+Cloud architecture is:
+applying cloud characteristcs and infrastructure to a project
+using cloud services and solutions to solve problems
+
+
+identfying the needs of a project and designing the cloud tools to meet those needs
+
+
+The Well Architected framework: (in no particular order)
+
+Security
+^^ Security is a key part of the cloud architecture
+^^ identity foundation
+^^ traceability
+^^ security at all layers
+^^ risk assessment and mitigation
+
+Operational excellence
+^^ Maintenance and operation considerations
+^^ ability to run and monitored
+^^ continous delivery and improvement (devops) compatible
+
+Reliability
+^^ fault tolerance and outtage resilience
+^^ dynamic and automated recovery
+^^ mitigation strategies
+
+Performance efficiency
+^^ perfornmance matches the needs, scales with demand
+^^ democratize advanced technologies
+^^ employ mechanical sympathy
+
+Cost optimization
+^^ minimize waste and unnecessary resources
+^^ measure efficiency
+^^ elimanate unnecessary costs
+^^ consider using managed services
+^^ automate
+
+
+Design tradeoffs:
+what sacrifices can be made to optimize performance
+what sacrifices can be made to optimize Cost
+what sacrifices can be made to optimize Reliability 
+what sacrifices can be made to optimize Security
+
+
+
+make things scalable
+automate what you can
+treat resources as disposable
+use loosely coupled components
+design services not servers
+choose the right database
+avoid single points of failure
+optimize for cost
+use caching
+secure your entire infrastructure
+
+
+
+A sprint this semester will involve building an API to communicate with AWS data stores
+
+
+Think of ourselves as solutions architects
+^^ why s3?
+^^ what alternatives?
+^^ what are the tradeoffs?
+^^ what are the limitations?
+^^ are the requirements met by the solution?
+
+
+Kennedy is giving a hard talk about self work and habits to build a successful career
+in technology not just find a short term employment but fade out of existence
+
+
+
+
+

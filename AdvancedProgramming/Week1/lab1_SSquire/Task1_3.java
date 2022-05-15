@@ -1,4 +1,4 @@
-package lab1_SSquire;
+package AdvancedProgramming.Week1.lab1_SSquire;
 
 public class Task1_3 {
     public static void main(String[] args) {
@@ -12,8 +12,6 @@ public class Task1_3 {
             System.out.printf("%4d   %12.2f\n", year, investment);
         }
         System.out.println("--------------------------------\n");
-
-
 
     }
 }

@@ -1,0 +1,21 @@
+Class on Tuesday
+
+We are reviewing basic class structures
+getting into constructors, methods and attributes
+
+
+class on Wednsday
+Reviewing what we've covered and diving deeper into class
+constructors 
+get and set methods
+toString method
+
+
+encapsulation - hiding the data and the methods
+
+
+order of content in a class:
+attributes
+then constructors
+then methods
+larger methods first and the methods they call further down the stack

@@ -1,0 +1,20 @@
+In class assignment for devops May 12th, 2022
+
+1. VC stands for version control. It is software that tracks changes to files and folders.
+Allowing version rollback as well as multiple users to merge changes into a master branch.
+
+2. The dev team is responsible for the code. Dev team code gets passed to the QA team for 
+testing. 
+The ops team is responsible for deployment and monitoring of the application.
+together with the dev team Devops strives to find and fix bugs in a cycle of Continuous
+improvement.
+
+3. Iac (infrastructure as code) is a tool that automates the deployment of an application by
+provisioning and configuring the necessary infrastructure. Makes distribution of configurations
+easier.
+
+4. Jenkins is a major open source CI/CD pipeline tool. It is used to automate the build, test,
+and deployment of an application. Java is the language that Jenkins uses.
+
+5. IAC tools include Ansible, Terraform, puppet, chef, saltstack, and AWS cloud formation.
+These tools may use domain specific language or a standard like YAML and JSO.

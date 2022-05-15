@@ -1,0 +1,27 @@
+1. 5 objects/ classes of a hospital system.
+^^ a. Admission Form
+^^ b. Discharge Form
+^^ c. Prescription
+^^ d. X-Ray
+^^ e. Lab Report
+^^ many objects in such a system would be inter related. an Xray could link to both
+the doctor who requested it and the patient of whom it was taken.
+
+2. a. doctor
+^^ A doctor would have attributes like specialty, name, contact info, and a list of patients
+as well as many more possible attributes.
+^^ behaviours(methods) of a doctor would be like ordering an xray, prescribing a drug, and
+discharging a patient. As well as systemic methods like clocking in and out and countless
+others depending on the need of the system. 
+ie: doctor.getLabReport(patient)
+
+b. patient
+^^ A patient would have attributes like name, age, contact info, list of doctors, and many more
+possible attributes.
+^^ behaviours(methods) of a patient would be like Check in and out,  getMedicalHistory(), 
+generateInvoice(), and countless other methods depending on the need of the system.
+
+
+
+
+

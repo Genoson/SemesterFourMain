@@ -51,3 +51,57 @@ going to get to spring boot later in the semester\
 JUnit
 
 Next monday we will workshop a basic maven project with JUnit tests... get ahead
+
+
+Wednesday morning class:
+Formatting was formerly a major consideration in the code.
+Nowadays automated code formatting is so common that it is not anymore.
+
+Smart use of white space to make code readable is highly recommended.
+
+
+Keep reading the textbook - probably all of it - its a damned good resource
+What is design and architecture - chapter
+TDD - chapter
+Unit Tests - chapter 9 
+
+
+
+3 laws of TDD (Test Driven Development):
+
+-You may not write production code until you have written a failing test.
+
+-You may not write more of a unit test than is sufficient to fail.
+
+-you may only write code up to passing the most recent failing test.
+
+
+
+It is easy to clutter up test code, avoid this.
+Good, readable test code is a must, especially for large projects.
+
+
+
+FIRST:
+fast - slow tests are less likely to be run as often
+independent - one test failure shouldn't effect the next test in the suite
+repeatable - should work regardless of environment 
+self validating - pass or fail states, not a log of events
+timely - up to date with the code
+
+
+
+Maven projects work like other project kits.
+pom.xml file is like the package.JSON file for node.js
+.xml is a file type with html like tags.
+
+projects are organized in folders.
+src -> main -> java
+src -> test -> java
+
+package structures in main vs test should be the same to avoid conflicts or errors due to package.
+
+
+build a maven project that emulates jamies code from todays lecture.
+
+

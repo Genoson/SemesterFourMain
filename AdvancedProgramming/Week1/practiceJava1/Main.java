@@ -1,4 +1,4 @@
-package practiceJava1;
+package AdvancedProgramming.Week1.practiceJava1;
 /** Comment blocks are used to document your code.
  *
  * 

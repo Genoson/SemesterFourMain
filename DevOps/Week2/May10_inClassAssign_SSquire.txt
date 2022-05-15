@@ -1,0 +1,26 @@
+What are each of the following?
+
+VPC - Virtual Private Cloud
+^^ A virtual private cloud is a private network space inside a larger cloud network. Being private 
+only authorized users have access to some or all of the resources in the private cloud. 
+
+VC - version control
+^^ A version control system is a software package that allows you to keep track of changes to
+files and folders in a project. git is a version control system. A major part of a CICD pipeline.
+
+Continuos Integration - CI 
+^^ Continuous integration is a process that automates the build, test, and deployment of software.
+Code is pushed to a repository and then tested and deployed. 
+
+Continuous Delivery - CD
+^^ Continuous delivery ensures a reliable software release pattern with quick and frequent 
+deployments. Usually features automated deployment
+
+Continuos Deployment - CD
+^^ Continuous deployment is a fully automated deployment process. All code changes are pushed to 
+production and no manual overrides exist on the automated process.
+
+Continuous testing - CT
+^^ Continuous testing is a process that ensures that the software is working as expected by automating
+a process of testing the software. Typically this test will happen whenever a change is made to the
+code repository.

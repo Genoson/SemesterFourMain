@@ -1,4 +1,4 @@
-package lab1_SSquire;
+package AdvancedProgramming.Week1.lab1_SSquire;
 // import statements are used to import other classes
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package practiceJava1;
+package AdvancedProgramming.Week1.practiceJava1;
 
 public class OOP {
     //object oriented programming is a programming paradigm that uses 

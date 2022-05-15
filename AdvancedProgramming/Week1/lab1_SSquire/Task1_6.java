@@ -1,4 +1,4 @@
-package lab1_SSquire;
+package AdvancedProgramming.Week1.lab1_SSquire;
 
 public class Task1_6 {
     public static void main(String[] args) {

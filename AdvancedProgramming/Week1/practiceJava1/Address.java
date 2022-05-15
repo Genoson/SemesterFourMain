@@ -1,4 +1,4 @@
-package practiceJava1;
+package AdvancedProgramming.Week1.practiceJava1;
 
 // good naming conventions and structuring code to reiinforce readability
     // an address class that has a street, city, province, and postal code etc is better than 

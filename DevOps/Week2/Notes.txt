@@ -1,0 +1,64 @@
+may 10 class notes:
+
+DevOps
+^^ careful applying into devops positions at small firms
+^^^ often looking to place more work on fewer employees, check the job description thoroughly
+
+DevOps stages 
+
+Version Control
+^^ maintains versions of the code
+^^ Keeps track of changes
+
+Continuous Integration
+^^ checks the code for errors
+^^ runs tests
+^^ runs code on a local machine
+
+Continuous Delivery
+^^ deploys code to a remote server
+^^ runs code on a remote server
+
+Continuos Deployment
+^^ deploys code to a remote server
+^^ runs code on a remote server
+^^ Fully automated deployment
+
+
+Unit Testing - Testing the individual units of code
+
+Integration Testing - Testing the integration of code ( the whole application )
+
+
+may 12 class notes:
+
+devops tasks at startup:
+
+infrastructure provisioning
+
+configuration of the environment(infrastructure)
+
+deploying the application to the environment
+
+* docker combines step 2 and 3
+
+
+
+Canary Deployment 
+^^ deploy a modified version of the app to a small, real world environment as a test
+
+
+
+Imperative approach to IAC 
+^^ 
+
+vs 
+
+declarative approach to IAC
+^^
+
+
+
+
+
+
