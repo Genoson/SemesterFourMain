@@ -1,0 +1,18 @@
+task solutions will be found here, if code was written a reference to that code will be found here
+
+task 1(a) : code found in Example1 folder > WidgetDemo.java
+
+task 1(b) : private static final is understood
+
+task 1(c) : Circle code found in Tasks folder > Circle.java
+
+
+task 2(a) : code found in Tasks folder > MyPoint.java
+
+task 2(b) : code found in Tasks folder > MyTriangle.java
+
+Task 3(a) : code found in Tasks folder > Customer.java and TestCustomer.java, 
+Invoice.java and TestInvoice.java
+
+Task 3(b) : code found in Tasks folder > Task3b folder 
+because of Customer class repetition the code is all commented out

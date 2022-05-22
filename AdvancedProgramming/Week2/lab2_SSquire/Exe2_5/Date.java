@@ -21,8 +21,8 @@ public class Date {
          if (dayArg < 1 || dayArg > 31) {
             throw new IllegalArgumentException("Day must be between 1 and 31");
         }
-        day = dayArg;
-        month = monthArg;
+        this.day = dayArg;
+        this.month = monthArg;
         year = yearArg;
     }
 

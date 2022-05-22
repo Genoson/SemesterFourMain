@@ -16,7 +16,7 @@ public class TestDate {
         System.out.println(date3.toString());
 
         System.out.println("\n\nIntentionally triggering an error" );
-        date1.setDate(40, 4, 1987);
+        //date1.setDate(40, 4, 1987);
         
     }
     

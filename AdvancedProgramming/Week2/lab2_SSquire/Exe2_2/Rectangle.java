@@ -6,8 +6,8 @@ public class Rectangle {
     private float length, width;
 
     public Rectangle() { 
-        length = 1.0f;
-        width = 1.0f;
+        length = 1.0;
+        width = 1.0;
     }
 
     public Rectangle(float lengthArg, float widthArg) {

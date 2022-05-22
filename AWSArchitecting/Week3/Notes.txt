@@ -1,0 +1,56 @@
+Take the time to do the labs and keep ahead of the course material.
+
+This course is essentially all self driven, class time is to handle issues and
+review the core concepts
+
+Review: s3 buckets
+5tb max file size
+
+scalable
+durable
+cost effective
+
+Kennedy will be doing q and a style review of past modules at the start of class
+participation is important
+
+
+to set up AWS CLI to interact with AWS
+you need to have you access keys and credentials
+
+
+Multipart upload allows you to upload large files in chunks that are reassembled
+when the upload is complete.
+
+
+Throughput and latency:
+^^Throughput is the amount of data/ requests being sent to the server per second
+^^Latency is the time it takes for a request to be sent to the server and for the 
+server to respond.
+
+
+
+now to discuss ec2:
+
+compute service.
+uses AMI to create virtual machines
+
+EC2 can be used to do anything a server can do
+application servers
+database servers
+web servers
+media servers
+
+Creation of an EC2 instance requires many steps
+1. a security group and/or key pair 
+2. user data
+3. roles
+4. AMI
+5. instance type
+6. VPC (network placement and address)
+7. storage solution (EBS)
+
+
+user data in ec2 is used to customize the instance environment
+
+
+

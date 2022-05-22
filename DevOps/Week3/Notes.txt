@@ -1,0 +1,63 @@
+Dev Ops class notes May 17 2021
+
+Suresh Birthday today
+he is from visakhapatnam
+Jet lag is killing him
+
+
+Reviewing and finishing IAC discussion
+Infrastructure as code
+
+Benefits of IAC -
+Speed - after initial set up  it is quick launch future projects
+Consistency - configuration is consistent across all the projects
+Accountability - 
+increased efficiency - 
+lower cost - 
+
+IAC can be divided into two main types
+
+imperative and declarative
+
+imperative is a series of steps to follow to get to the desired outcome
+
+
+declarative lays out the desired outcome and the code automates the process of reaching it
+
+
+IAC tools
+Cloud Formation - AWS
+Azure Resource Manager - Azure
+Google Cloud Deployment Manager - GCP(Google)
+Terraform 
+Chef
+Ansible
+Puppet
+
+
+
+IAC is used in devops to automate the process of deploying a new application to a new environment
+freeing up time for the team to focus on maintenance and development of new features, etc.
+
+
+Monolithic services - one large application that is deployed to a single environment
+- testing is a massive endeavour and small changes can be very hard to test
+- small bugs cause ripples through the system, sometimes causing major issues that are 
+hard to trace
+- builds take a long time
+- deployment is a costly process and long
+- maintenance is a costly process and long
+- scaling is a major challenge
+
+
+Microservices - a collection of loosely coupled services that are deployed to a single environment
+- testing is easier and faster
+
+
+
+Macroservice - modular application that interacts with microservices to achieve a desired outcome
+
+
+It is hard o migrate from a monolithic application to microservices.
+using macroservices as a bridge and factoring more and more services out
+until a fully microservice architecture is reached

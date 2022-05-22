@@ -1,0 +1,92 @@
+Week 3 notes for Advanced programming with java
+
+this weeks topics: 
+
+static variables and static methods we have covered
+
+we have been adding methods to classes this whole time, this is something we will continue to do
+
+Method overloading is a feature of java that allows us to have multiple methods with the same name
+^^ must have different parameters somehow
+
+class stack and activation record
+
+access and non-access modifiers and the final keyword
+
+scope of declaration
+
+Aggregation \ cross class relationships
+
+
+Tuesday may 17 notes:
+
+Static variables are shared by all instances of a class and accessed using the class name
+ie: Class.variableName
+
+static methods are shared by all instances of a class and accessed using the class name
+ie: Class.methodName(type params) outside of the class
+and inside the class you can access the static method by:
+ie: methodName(type params)
+the public static void main method is a static method
+static methods cannot access non-static variables
+
+a static block is a block of code that is executed when a class is loaded into memory
+declared:
+static {
+    //code
+}
+
+if a class has multiple static blocks, they are executed in the order they are declared
+
+
+
+access modifiers:
+public - accessible to any class 
+default - accessible to any class in the same package
+
+private - accessible only within the class
+protected - accessible to any class in the same package and subclasses
+
+non-access modifiers:
+final - cannot be overridden / cannot be extended
+abstract - cannot be instantiated
+
+rarely used non access modifiers:
+transient - not serialized / not stored in the object file
+
+synchronized - thread safe / synchronized methods
+
+volatile - thread safe / volatile variables
+
+
+*** Personal task - write a doubly linked list in java ***
+
+
+method call stack is the order in which methods are called and then executed 
+by the program on execution
+
+activation record is the stack frame that is used to store the local variables
+
+scope of declaration and aggregation will be covered in tomorrow's class
+
+
+Wed may 18 2022
+
+Give methods meaningful, concise names. 
+^^ if this is hard your methods might be doing too many tasks
+try to keep methods to a single task
+try to keep methods to returning a single value or object
+
+variables should be declared as fields (instance variables)
+
+parameters cannot be typed as a group
+
+aggregations in Ainees' diagrams are represented by a diamond
+
+come on steve, this. is a reference to the current object and should be used 
+more in my code
+
+
+
+
+

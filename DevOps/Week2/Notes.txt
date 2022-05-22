@@ -48,6 +48,8 @@ Canary Deployment
 ^^ deploy a modified version of the app to a small, real world environment as a test
 
 
+IAC is infrastructure as code
+
 
 Imperative approach to IAC 
 ^^ 

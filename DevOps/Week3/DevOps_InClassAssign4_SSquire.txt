@@ -1,0 +1,28 @@
+Dev ops in class assignment 4
+Stephen Squire
+May 17, 2021
+
+
+1. A monolithic Application is a single application that is built from a single source code file.
+It is called monolithic because it has one large source file that contains all of the code 
+for the application.
+
+
+2. A microservice is a smaller component of an application built to work along side 
+other similar sized components. Microservices offer the advantage of being able to 
+modify or replace a single component without having to modify the entire application.
+
+
+3. a Macroservice is a collection of microservices that are designed to work together 
+as a single application or service.
+
+
+4. Microsoft windows is an example of a monolithic application.
+AWS DynamoDB is an example of a microservice.
+Any AWS based application is an example of a macroservice.
+^^ Netflix is a Macroservice that is a collection of microservices, many of which are
+hosted on AWS.
+^^ Uber is a Macroservice
+
+
+

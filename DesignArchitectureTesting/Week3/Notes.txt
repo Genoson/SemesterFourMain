@@ -1,0 +1,80 @@
+May 16th
+
+test in the form of Build - Operate - Check
+name test in the form of Given - When - Then
+
+
+Try to stick to a single assert per test.
+If that leads to clutter, or too much code replication try to keep to one concept per test.
+
+Clean tests follow these five rules:
+
+Fast - Tests should be fast.
+Independent - Tests should be independent of each other.
+Repeatable - Tests should be repeatable in any environment.
+Self validating - Output a boolean result.
+Timely - Tests should be written along side the production code they are testing.
+
+Java project do not like sharing IDE space with multiple projects.
+Open them in a unique to the project instance of vscode
+
+Do some more practice ahead of wednesday
+
+
+May 18th, 2022
+
+"The bottom line is that test driven development works, and everyone needs to get over it"
+
+Three laws of TDD again, because repetition
+
+1. Don't write production code until you have first written the failing unit test
+
+2. Only write enough of a test to fail... not compiling is failing.
+
+3. Only write as much production code as you need to get the failing test to pass.
+
+
+TDD is a cycle of quick, thorough development with robust and high coverage tests.
+
+Following TDD has a major benefit of having a very low defect injection rate 
+on adding new code and features into the code base.
+
+Knowing that robust tests exist inspires programmers to risk making changes
+to the code because errors are more likely to be caught.
+
+TDD is the professional option
+
+
+QAP 1 for this course
+
+TDD approach, a simple project
+2 test classes of 3 tests cases each using different assertions
+write the classes to pass the tests
+host the project on github
+
+submit a word doc with a summary of the work and a url to the github repo
+
+
+Jamie recommends setting up SSH keys for github to streamline the process
+Jamie asserts that the best programmers are lazy programmers
+^^ ie if you have a tool to make your life easier, use it
+^^ should talk to jamie about github copilot
+
+write a good test first, don't write tests to pass
+write good code, don't write code just to pass the test
+
+jvm stands for java virtual machine
+
+*** study pom files and how to write them ***
+
+Jamie prescribes to testing one concept not one test per @†est
+
+Jamie is providing valuable debugging and testing methodology practicals
+
+QAP will be out next week (Wednesday class) 
+
+Pay attention to edge cases when testing and try to cover all of them in each unit test
+
+After the QAP we will get into mocking data and situations for testing
+
+
