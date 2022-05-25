@@ -1,0 +1,15 @@
+Stephen Squire QAP 1 Assessment Java
+
+1. This QAP took me about 90 minutes to complete.
+
+2. I used no resources to solve this QAP, it was all on material we had thoroughly covered. 
+Prior to receiving the assignment I studied the prescribed readings and problems as well as 
+working through the w3schools java tutorials. I also occasional use stack overflow and 
+youtube tutorials to help me solve problems in my studies.
+
+3. No, I did not have to reach out to any of my peers for help.
+
+4. I asked Dr. Ainee for clarification on "proper comments" and some minor issues in wording of the QAP.
+
+5. This QAP was probably a 1 / 10 difficulty for me. I could definitely solve more and more difficult variations
+of this QAP.

@@ -1,0 +1,19 @@
+ArrayList methods include:
+
+add(int index, Object o) - adds the specified element at the specified position in this list
+add(Object o) - adds the specified element at the end of this list
+
+remove(int index) - removes the element at the specified position in this list
+remove(Object o) - removes the first occurrence of the specified element from this list, if it is present
+
+set(int index, Object o) - replaces the element at the specified position in this list with the specified element
+
+int indexOf(Object o) - returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element
+
+Object get(int index) - returns the element at the specified position in this list
+
+int size() - returns the number of elements in this list
+
+boolean contains(Object o) - returns true if this list contains the specified element
+
+clear() - removes all of the elements from this list

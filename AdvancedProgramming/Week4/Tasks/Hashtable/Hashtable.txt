@@ -1,0 +1,38 @@
+Hashtable is the first implementation of a hash table data structure in Java
+^^ HashMap came later
+
+Hash tables provide fast CRUD operations on data.
+
+Hashtable class maps keys to values.
+^^ any non null object can be used as a key or value
+^^ hashCode() and equals() methods are used to determine if two keys are equal
+
+Hashtable is similar to HashMap, but it is synchronized.
+
+
+Load factor - the ratio of number of entries to the size of the table.
+^^ automatic resizing occurs when load factor is exceeded
+
+
+Hashtable constructors:
+
+    Hashtable() - creates an empty table with default initial capacity (11) and load factor (0.75)
+    Hashtable(int initialCapacity) - creates an empty table with the specified initial capacity
+    Hashtable(int initialCapacity, float loadFactor) - creates an empty table with the specified initial capacity and load factor
+    Hashtable(Map<? extends K, ? extends V> m) - creates a table with the same mappings as m
+    Hashtable(Map<? extends K, ? extends V> m, float loadFactor) - creates a table with the same mappings as m and the specified load factor
+
+
+Hashtable methods:
+
+put(K key, V value) - adds the mapping from key to value, replacing any previous mapping for key
+get(Object key) - returns the value to which the specified key is mapped, or null if this map contains no mapping for the key
+containsKey(Object key) - returns true if this map contains a mapping for the specified key
+containsValue(Object value) - returns true if this map maps one or more keys to the specified value
+remove(Object key) - removes the mapping for a key from this map if present
+clear() - removes all of the mappings from this map
+size() - returns the number of key-value mappings in this map
+isEmpty() - returns true if this map contains no key-value mappings
+keySet() - returns a Set view of the keys contained in this map
+values() - returns a Collection view of the values contained in this map
+entrySet() - returns a Set view of the mappings contained in this map

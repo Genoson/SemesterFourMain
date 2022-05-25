@@ -1,0 +1,8 @@
+Arrays
+import java.util.Arrays;
+
+Arrays methods:
+
+sort(T[] a) - sorts the array in ascending order
+
+
