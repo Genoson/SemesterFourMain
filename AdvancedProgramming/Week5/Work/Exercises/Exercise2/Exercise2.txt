@@ -1,0 +1,15 @@
+// I am not the most confident about some of these answers.
+
+a - no, an instance method cannot override a static method
+b- no, a static method cannot hide an instance method
+c - no you can't override a final instance method
+d - no
+e - yes, but there are some restrictions
+f - no
+g - yes
+h - no
+i - yes
+j - no
+k - yes
+l - No
+m - public, protected, private, default

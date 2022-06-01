@@ -1,0 +1,32 @@
+Monday May 30 Lecture
+
+Q and A with regards to the QAP today...
+
+^^  different assertion methods in Junit
+
+^^  What is null???
+^^ ^^ an empty memory address, the absence of a value
+
+
+
+Mock objects coming on wednesday
+^^ pretend database with prepopulated data for testing
+
+Jamie on static
+^^ static behaviour requires extra care as it can be accessed from anywhere
+^^ 
+
+
+
+think about reuse when grouping classes together
+^^ store them in different packages if they aren't strictly related
+^^ easier to keep tests with the codebase it tests
+
+Slow and steady coding is a perfectly alright way to work
+
+Wednesday class... mock objects?
+
+Mockito is the mocking library of choice for Jamie
+^^ its fun, working in the folder here, will rework a project with mock testing
+^^ probably ainees qap2
+

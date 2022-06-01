@@ -1,0 +1,75 @@
+Notes on inheritance from the w3schools tutorial set
+
+in inheritance the child class inherits all the properties and methods of the parent class
+
+child class - or subclass - is a child of the parent class - or superclass
+
+we use the extends keyword to inherit from the parent class
+
+class Vehicle {
+  constructor(name) {
+    this.name = name;
+  }
+  honk() {
+    console.log("beep");
+  }
+}
+
+class Car extends Vehicle {
+  constructor(name) {
+    super(name); //super() is a reference to the parent class constructor
+  }
+}
+
+we use the protected keyword to make a property or method private, 
+but still accessible from the child class(es)
+
+
+ We cannot extend a class with the final keyword
+
+Polymorphism - the ability of an object to take on many forms
+^^ deeply linked to inheritance
+
+in the above example the Vehicle class has a honk() method,
+therefore the Car class can also use the honk() method, 
+as could any other subclasses of Vehicle
+this is called polymorphism
+
+Methods and properties can be overridden(overloaded) by a child class
+this way multiple child classes can inherit from the same parent class
+while having different functionality
+
+Inheritance and polymorphism are often used together to create a hierarchy of classes
+that reduce the amount of code that needs to be written by preventing duplication
+
+Outer and Inner classes:
+we can create an inner class inside an outer class(nested classes)
+to access the properties and methods of the inner class we must first 
+access the outer class and then the inner class.
+
+example:
+Class OuterClass{
+    class InnerClass{
+        //inner class code
+    }
+}
+
+OuterClass NewOuterClass = new OuterClass();
+OuterClass.InnerClass NewInnerClass = NewOuterClass.new InnerClass();
+
+We do this to group related Classes together
+this promotes code reusability and makes it easier to maintain
+
+an inner can be private or protected
+^^ this is an example of encapsulation
+^^ encapsulation is the process of hiding the implementation details of a class
+^^ a private inner class cannot be accessed from outside the outer class
+
+also of note are static inner classes
+static inner classes can be accessed without creating an instance of the outer class
+ie: OuterClass.InnerClass.staticMethod(); 
+^^ this is a valid access of a static method inside a static inner class
+
+inner classes can also access all of the outer classes attributes and methods
+
+next topic is abstraction

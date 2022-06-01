@@ -26,7 +26,7 @@ class StringMethodsTest{
     void testReturnFirstNonDuplicateChar(){
         assertEquals('H', StringMethods.returnFirstNonDuplicateChar("Hannah"));
         assertEquals('c', StringMethods.returnFirstNonDuplicateChar("aabbc"));
-        assertEquals(null, StringMethods.returnFirstNonDuplicateChar("aabbcc"));
+        assertNull(StringMethods.returnFirstNonDuplicateChar("aabbcc"));
     }
 
     @Test

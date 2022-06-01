@@ -1,0 +1,46 @@
+Monday may 30, 2022
+
+Going over module 5 reading materials as a class with Kennedy.
+Will attempt to complete module 6 this week and stay a week ahead of the curve.
+
+oAuth authentication is something that kennedy reccomends us to familiarize ourselves with.
+^^ this is a very commonly used module
+
+Scalability is the ability to resize a service to meet demand, dynamically.
+^^throughput is the number of requests that can be handled in a given amount of time.
+
+Total storage requirement - the total amount of storage space that a service needs to store data.
+^^ this is a very important concept in the cloud. 
+^^ underestimates can break services. 
+^^ over estimates cost a lot
+^^ locking in to an unscaleable data store can cause problem down the road
+
+object size and type - the size and type of data that a service needs to store.
+^^ must match the storage requirements of the service.
+
+Durability - the ability to store data in a way that is persistent and durable.
+^^ fault tolerant
+
+
+ACID 
+A = Atomicity - the ability to store data in a way that is atomic.
+C = Consistency - the ability to store data in a way that is consistent.
+I = Isolation - the ability to store data in a way that is isolated.
+D = Durability - the ability to store data in a way that is durable.
+
+
+
+vertical scaling - the ability to scale a service vertically.
+^^ is when you add more power to increase performance
+
+
+horizontal scaling - the ability to scale a service horizontally.
+^^ is when you add more instances to increase performance (parallel)
+
+
+Final sprint will involve writing api to query an amazon rds
+
+
+OLAP
+online analytical processing
+

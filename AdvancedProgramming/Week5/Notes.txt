@@ -1,0 +1,19 @@
+Tuesday May 31, 2022 lecture notes
+
+Review of topics on the QAP 2 and then inheritance
+
+Going thru the review Slideshow, which I read ahead of class.
+^^  a great summary of everything we are expected to have covered up to this point.
+
+QAP2 is given with much of the code provided, especially the testing code
+
+Inheritance - passing something from the parent to the child
+
+inheritance with reference to bankAccount class
+^^ will extend it to the child class chequeingAccount and feeAccount
+^^ all code for these examples is provided in the power point as it is covered
+
+
+
+
+

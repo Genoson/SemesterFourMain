@@ -17,7 +17,7 @@ public class Word {
         wordsTable.put(word, "A Greeting");
         String definition = wordsTable.get(word);
         System.out.println(definition);
-        definition = wordsTable.remove(word);
+        wordsTable.remove(word);
         System.out.println(definition);
         System.out.println(wordsTable.get(word));
     }
