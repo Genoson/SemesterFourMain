@@ -1,0 +1,31 @@
+Dev Ops in-class assignment
+Stephen Squire
+June 16th 2022
+
+
+1.	What is Git & Github.
+^^ Git is a version control system. It is used to track changes to files.
+^^^^ Git is the tool.
+^^ Github is a web-based hosting service for version control using Git.
+^^^^ Github is the service.
+
+2.	What is repository
+^^ Repository is a collection of files.
+^^^^ Specific to github a repository is a store for a project or set of related files. 
+
+3.	Define Clone
+^^ Clone is a command that copies a repository from a remote location to a local location.
+
+4.	Difference between public & private repository
+^^ Public repository is visible to everyone.
+^^^^ Only those with explicit permissions can commit to it.
+^^ Private repository is accessible only to the owner.
+^^^^ Private repository is not visible to anyone else.
+^^^^ Private repositories can be shared with explicit permissions.
+
+
+5.	What is pull request.
+^^ Pull request is a request to merge a branch into another branch.
+
+
+

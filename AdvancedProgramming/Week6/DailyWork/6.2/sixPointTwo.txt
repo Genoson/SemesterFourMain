@@ -1,0 +1,29 @@
+The class diagram of this example code 
+
+                    Animal
+                        ^^
+        Cat                     Dog
+                                     ^^
+                                Big Dog
+
+
+
+the output would be as follows:
+Meow!
+Woof!
+Woow!
+
+neither of the three examples under polymorphism would be able to be compiled.
+
+the first example in downcasting I don't think will compiled
+Woooooooooof!
+doesn't compile
+doesnt compile
+Woooooooooow!
+
+^^ guessing based on reading the code, did not test
+
+
+
+
+

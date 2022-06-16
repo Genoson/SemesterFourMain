@@ -1,0 +1,19 @@
+Tuesday June 7 lecture
+
+Starting with a review of inheritance.
+Covered nothing of note
+
+Wednesday June 8 lecture
+
+Abstraction and interfaces are the topics du jour
+
+Interfaces are a way to achieve abstraction
+^^ they are 100% abstract
+
+an abstract class can be less abstract than an interface
+
+Most of class is being spent reviewing the end of last class
+
+
+
+

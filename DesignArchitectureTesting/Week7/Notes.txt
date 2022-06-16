@@ -1,0 +1,48 @@
+Monday june 13th 
+
+Sprint next week. Whats the goal?
+^^ Building a large set of java classes ( work with collections and data transformation)
+^^ using mocking to test these classes
+^^ we will be cloning a master from Jamie, and work on a branch together as a team, 
+^^^^ simulating a production environment.
+
+Helping Barry with a test based error
+^^ has 4 vscode instances open while in a teams call and sharing screen
+^^ everything is running at a snails pace
+
+
+Object mocking to be covered with remainder of class
+^^ from the top no less
+
+Object mocking is a way to control the behaviour of our software when we run it in a test.
+^^ simulate external dependencies (like a database, or API call)
+
+Lets us focus the test on the specific method we want to test.
+
+None of the code in the mocking example is production grade or secure. just examples.
+^^ the above referenced sample code is found below:
+https://github.com/jamie-keyin/QAP1Example_S4_2022/blob/master/src/test/java/com/keyin/account/AccountManagerTest.java
+
+
+
+June 15 lecture
+*** not til after the sprint ***  we are lagging behind the semester outcomes ***
+^^ introducing the idea of spring boot framework and the MVC pattern
+^^ the MVC pattern is a way to structure our code so that we can easily change our code
+^^ MVC = Model View Controller 
+*** MySQL will follow spring boot ***
+
+
+Looking at mocking yet again
+^^ When to use it?
+^^^^ Mock communication with services outside the class under test
+^^^^^^ databases, web calls, api interactions, etc.
+
+
+Java has built in logging capabilities.
+^^ we use log aggregators to aggregate logs from multiple sources.
+^^ we won't usually test logging in a unit test sense
+
+Sprint 
+^^ a java program that takes command line prompts and returns values ( ie: golf tournament)
+^^ develop rigorous testing and mocking for this program

@@ -1,0 +1,12 @@
+june 13 lecture
+
+** Kennedy is asking us to map out a AWS architecture.
+^^ for this upcoming sprint
+^^^^ lucid charts are a good way to visualize this.
+
+Kennedy recomends being able to use lucid charts to design architectures
+^^ not just aws but also API
+
+After building the design in lucid charts or figma
+^^ we will use the design to build the architecture on aws
+

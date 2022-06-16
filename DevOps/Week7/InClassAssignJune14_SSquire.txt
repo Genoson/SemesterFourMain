@@ -1,0 +1,52 @@
+Stephen Squire
+June 14, 2022
+
+Please answer the following questions from your understanding.
+
+1.What is Jira?
+^^ Jira is a project management tool for agile development.
+^^^^ more advanced than Trello. By the same company.
+^^^^ designed for software development
+
+2.What is work-flow in Jira?
+^^ follows the agile process:
+functionality - Planning - Implementation -Testing -Review 
+
+Start in the backlog - identify issues ( tasks or features)
+
+EPIC -  new term - an abstract view of the client needs
+^^ the high level goal(s) of the whole project
+
+Story - a single feature that is part of the project (EPIC)
+^^ stories are assigned to sprints
+^^^^ sprints have todo, in progress, and done categories for tasks and stories
+
+Task - a single unit of work that is part of a story
+^^ referred to as sub tasks when part of a story
+
+
+
+3.What is EPIC and STORY?
+EPIC is the whole projects high level goal.
+STORY is a single feature that is part of the project.
+
+
+4.Reasons for using Jira 
+Jira is a great tool for organizing and tracking tasks of a project.
+^^ It makes it easy to track progress and to communicate with the team.
+^^ Work can be assigned to different people. 
+^^ It is easy to see the progress of the project.
+^^ It is also to see where the project is encountering problems.
+
+
+5.Who is the Scrum Master from the video you just watched?
+Scrum roles are the hierarchy of the Scrum team.
+Project owner - the person who is responsible for the entire project.
+^^ deals with the customer directly
+Scrum master - the person who is responsible for the Scrum team.
+^^ middle man between the Project owner and the scrum team
+^^^^ the scrum master is labelled as developer1 in this video ***
+Scrum team - the team of developers working on the sprint
+
+
+

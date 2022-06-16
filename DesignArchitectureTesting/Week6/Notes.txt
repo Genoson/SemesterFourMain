@@ -1,0 +1,79 @@
+Monday Class Jun 6
+
+QAP review - I'm good
+
+Do mocking and mockito practice.... I have annies QAP 2 to recode as a TDD project
+
+
+* Be aware of Java naming conventions
+* Use access modifiers
+* Use package structures
+* Typically never use new keyword with String object
+^^ String methods are important, learn them
+^^ Strings are immutable but you can return substrings etc via the methods
+** Create a string method document **
+
+* Practice the command prompt (terminal) commands
+^^ zsh, bash
+^^ git
+^^^^ git status - 
+^^^^ git pull - pulls from remote
+^^^^ git push - pushes to remote
+^^^^ git clone <repo>
+
+Trunk based PR workflow
+^^ Pull request - a branch that is created from the remote branch
+** do some research on this **
+
+git branch <branch name>
+^^ creates a branch, function built in to IDE usually
+git checkout <branch name>
+^^ switches to branch
+
+** pay more attention to .gitignore **
+
+after pushing a branch
+^^ pull request - create a pull request on github
+^^ merge pull request - merge the pull request
+
+** Knowing PR workflow is a very hirable skill **
+^^ Jamie is a great mentor
+^^^^ He is going to rejigger an assignment to be a pull request submission
+
+Clone master, create a branch, push to remote, create pull request, Code Review, merge pull request
+^^ This is a very common workflow
+** do one of these **
+^^ set it up for my KPM group
+
+
+June 8 class
+
+reviewing the simple github pr request task
+
+Set up the SSH keys
+^^ follow along with the documentation and generate it on my computer
+
+
+from cli - 
+select the working directory locally
+git status - shows the status of the working directory
+git commit -m "message" - commits the changes to the local repository
+git push - pushes the local repository to the remote repository
+
+as git is the basic workflow of any good software setting, we will be working in this
+environment and we will be mentored into the job
+
+Most project will require approval to merge into the master
+tag the owner/ senior developer using @ in comments to alert them
+
+Figure out how to include a database, and how to include a web server
+In java
+
+Revise the old react app/ build a new one.... probably build a new one
+
+
+Jamie is comfortable with the progress we made this semester
+^^ i feel like we have been moving at a snails pace, and have gotten next to nothing done
+
+
+

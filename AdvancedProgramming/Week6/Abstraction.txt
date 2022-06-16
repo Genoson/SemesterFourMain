@@ -1,0 +1,45 @@
+Abstraction is a method of hiding the details of a codebase in java
+^^ you cannot instantiate an abstract class, it is restricted
+^^ abstract methods can only be used in the abstract class. 
+
+We use inheritance to create a class that inherits from an abstract class
+
+
+Interface, another method of abstraction in java
+^^ a completely abstract class that is used to group related methods
+^^ interfaces can only be used as a type, not as an object
+^^ we implement interfaces by using the implements keyword
+ie: public class MyClass implements MyInterface{}
+
+When you implement an interface, you must implement all the methods in the interface
+^^ override the methods in the interface
+
+interface methods are abstract and public by default
+
+Interface attribute are public, static and final by default
+
+There are no constructors in interfaces.
+
+A class can implement multiple interfaces
+ie: public class MyClass implements MyInterface1, MyInterface2{}
+
+
+Enums are a special type of class that can be used to create a set of constants
+ie: public enum MyEnum{}
+^^ by convention the name of the enum is capitalized
+^^ enums are used to create a set of constants
+ an enum can be declared inside a class or outside of a class
+
+ often used in conjunction with switch statements
+
+ we can loop through an enum using a for loop
+ie:     for(MyEnum myEnum : MyEnum.values()){}
+
+Scanner is a class that allows us to read input from the user
+^^ we use the nextLine() method to read a line of input (String)
+^^ we use the nextInt() method to read an integer (int)
+^^ we use the nextDouble() method to read a double (double)
+^^ we use the nextBoolean() method to read a boolean (boolean)
+^^ etc
+
+

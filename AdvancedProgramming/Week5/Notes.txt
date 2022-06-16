@@ -13,7 +13,13 @@ inheritance with reference to bankAccount class
 ^^ will extend it to the child class chequeingAccount and feeAccount
 ^^ all code for these examples is provided in the power point as it is covered
 
+Dynamic binding - when you call a method on an object, it will look for the method in the class of the object
 
+when object and variable type dont match, the object type will determine 
+the methods available, not the variable type
 
+Type casting - when you call a method on an object, it will look for the method in the class of the object
+
+when object and variable type dont match, the object type will win out
 
 
