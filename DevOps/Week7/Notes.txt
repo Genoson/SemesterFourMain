@@ -6,3 +6,8 @@ Atlassian.com/software/jira
 Thursday june 16th
 Git and git practices review
 
+We did a student led walkthrough of repo creation, branch creation, commiting a change and pr merge.
+
+Best practice to delete branches once merged in a large project if the branch is not needed anymore.
+^^ branches like anything in git can be restored.
+
