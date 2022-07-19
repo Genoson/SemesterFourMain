@@ -1,0 +1,36 @@
+Answers to the expected output of the error handling worksheet from class one of this week
+
+1.  "Arithmetic Exception: You can't divide an integer by 0"
+
+2.  ("Error: Don't divide a number by zero
+I'm out of try-catch block in Java."
+
+3. ("ArrayIndexOutOfBounds");
+
+4. ("Warning: ArithmeticException");
+Out of try-catch block...");
+
+5. ("Number format exception occurred");
+
+6. str.length
+e
+StringIndexOutOfBoundsException!!");
+
+7. NullPointerException..");
+
+8. (Inside block1"
+    "Exception: e1
+    ("Inside block2"
+    Arithmetic Exception"
+    Inside parent try catch block");
+    ("Next statement..");
+
+9. ("ArrayIndexOutOfBoundsException
+(" handled in main try-block
+
+10. the same as 9, somehow, lol
+
+11. Age can't be less than zero
+stack trace
+
+12.

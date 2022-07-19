@@ -1,0 +1,61 @@
+Monday july 4th, 2020
+
+Sprint feedback, general
+^^ handling merge conflicts best practices
+^^^^ don't let it get to gnarly, focus on small changes and frequent updates
+^^^^ Scrap a highly divergent branch and create a new one, then make the changes again
+
+^^ Be aware of the affect of inheritance and aggregation on code functionality and complexity
+
+Feedback will be provided as a code review
+
+
+Now we are starting architectural frameworks
+
+Spring/SpringBoot - Basic demo and expectations set this week
+
+Rest API - basic demo and expectations set this week
+
+Jamie uses a fusion approach rather than the provided dependencies explicitly
+
+Afterwords we will connect to a DB and upload and download objects
+
+SpringBoot
+^^ a java framework for building web applications
+^^^^ very powerful, easy to use, and easy to learn
+
+Apache Tomcat - a Java servlet container
+^^ WAR file - a Java archive file format that can contain a web application
+^^^^ JAR file - a Java archive file format that can contain a set of files and classes
+
+Ready to connect to Docker
+^^ Docker is a containerization technology that provides a way to run applications on a Linux-based 
+^^^^operating system without the need to install and manage software.
+
+MVC - Model View Controller pattern
+^^ a design pattern that separates the view from the model
+^^^^ the view is the user interface, the model is the data, and the controller is the glue between the two
+
+
+Jamie project walkthrough
+^^ A basic springboot project
+^^^ on his github repo -> clone it and get it working
+^^^^ would need to set up mysql and connect to that
+
+pom file with Springboot dependencies
+and data access dependencies
+
+jpa - Java Persistence API
+^^ a Java API for accessing and managing persistent data
+^^^ very powerful and easy to use tool for accessing SQL databases
+^^^ will pull properly aggregated data from the database
+^^^^ code parsing to auto generate SQL queries
+
+This framework does a lot of the heavy lifting for you
+
+
+postman - a tool for testing APIs
+
+
+Ask Jamie - should we be designing our Java data in a similar way to how we would for a SQL database?
+

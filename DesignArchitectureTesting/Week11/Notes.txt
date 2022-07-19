@@ -1,0 +1,5 @@
+This week we are continueing getting the API and database layers working.
+
+MySQL
+
+

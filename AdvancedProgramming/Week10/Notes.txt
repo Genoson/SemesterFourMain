@@ -1,0 +1,31 @@
+july 5 2022
+
+We are doing exception handling 
+^^ when to throw an exception
+^^ when to catch an exception
+^^ how to handle an exception of a specific type
+
+
+A very important part of developing production code is exception handling.
+^^ without good exception handling, your code will crash and burn.
+^^^^ paying customers do not like this.
+
+errors and exceptions
+the difference between errors and exceptions 
+
+We should write code in an exception execution block
+try block
+catch block (can be more than one)
+finally block (optional)
+
+we can use e.getmessage() to get the error message
+
+Steve, good exception handling, start to consider it everywhere
+^^ when should you avoid using exceptions?(should you ever)
+^^^^ 
+
+
+throw is used to manually throw an exception
+
+throws is used to declare that a method throws an exception
+

@@ -1,0 +1,55 @@
+Tuesday July 19, 2022
+
+SDLC - Software Development Life Cycle
+
+Secure SDLC 
+
+How to bake security into your product
+^^ a multifaceted approach
+
+A partnership between all team members in the product
+
+1 - Security Training
+^^ security 101, common issues, indicators
+^^ new hires, annual refreshers, 
+^^ Scalability, knowledge sharing, Mindset, culture,
+^^ ex: Phishing
+
+2 - Architecture review - architecture flaws are the hardest to change
+^^ profile the tech, analyze the attack surface, ensure not vulnerable by design
+^^ Product planning, 
+^^ vulnerabilities often arise during design phase, secure by default
+
+3 - Security requirements
+^^ best practices, product specific
+^^ confirmed architecture, tech stack, etc
+^^ checklist, tickets, sprints, complete while building
+Tools - SD elements, GoSDL
+
+4 - Threat modeling
+^^ map the assets, protections in place, threats, understand threat vectors
+^^ closer to end of development/ design
+^^ lock down easy attack paths, 
+
+5 - Static code analysis
+^^ scan code for obvious issues
+^^ as soon as code is checked in, automate
+^^ catch issues as soon as possible, remediate it as soon as possible
+
+6 - open source analysis - super important and easy to do ***
+^^ open source dependency versions, known safe versions
+^^ When code is checked in, automate
+^^ avoid introducing critical vulnerabilities
+Tools - WhiteSource, SourceClear, Snyk
+
+7 - Dynamic Testing
+^^ automate Testing, black box
+^^ stable product, staging environment, QA
+^^ Find issues that script kiddies can exploit
+
+8 - Penetration Testing
+^^ hacking your product
+^^ before product release, staging environment
+^^ hackers will do this anyway, you might as well find the issues first
+
+

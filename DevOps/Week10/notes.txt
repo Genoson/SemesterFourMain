@@ -1,0 +1,89 @@
+Tuesday jul5 2022
+
+Docker - a tutorial on launching a app using Docker
+
+Docker is a platform for running and shipping applications in a containerized environment.
+^^ containerized environments ensure that your app is running in a secure environment, and that it is isolated from the rest of the system.
+^^ they also ensure that the dependencies, versions and configuration of your app is consistent across all of your instances.
+
+
+container vs virtual machine
+a virtual machine is a simulation of an independant system on a larger system.
+^^ each vm needs a full blown os, therefore slow to start and resource intensive
+
+containers have all the advantages of virtual machines, but are much smaller and more lightweight.
+^^ don't require their own OS and need fewer resources to start.
+
+
+Docker uses a client server model.
+^^ hte client communicates with the server via a restful api
+
+docker applications have to be compatible with the kernel of the OS in order to run
+^^mac os compatability requires a light linux vm
+
+docker apps require a docker file
+^^ a docker file is a text file that describes the app
+^^ it tell the container how to run the app
+
+
+to run a node app we need to:
+start with an os
+install node
+copy the app file
+run the app on node
+
+
+docker images can be found at docker hub
+^^ hub.docker.com
+
+
+
+** Linux primer **
+Alpine is  very small and light.
+Ubuntu is a popular linux distribution.
+
+docker run -it ubuntu
+^^ this will run ubuntu in a terminal
+
+apt is a package manager for linux
+^^ we use apt install to install packages
+^^ but first we should run apt update to get the latest packages
+
+
+Thursday July 7 2021
+
+Kubernetes  - what is it, how does it work, how do we use it?
+
+Kubernetes is a container orchestration system.
+^^ unlike docker, kubernetes is not a single image.
+^^ if docker is viewed as a shipping container then
+^^ kubernetes is a shipping company
+
+
+kubernetes has many components:
+cluster - a collection of nodes
+node - a computer that runs the cluster
+master - the node that is the leader of the cluster
+kube plane - a virtual network
+kube dns - a dns server
+kube proxy - a proxy server
+kube controller - a controller server
+kube scheduler - a scheduler server
+kube apiserver - an api server
+kube client - a client to interact with the api server
+kubelet - a node to run the kubelet
+pod - a container
+service - a service to expose to the world
+
+
+Canary deployments are easily managed by kubernetes.
+
+Amigoscode has a kubernetes tutorial
+^^ uses minikube
+^^^^ minikube is a virtual machine that runs kubernetes on a local machine
+^^ uses kubectl
+^^^^ a command line tool to interact with the kubernetes
+
+kubernetes uses yml files to describe the cluster.
+^^ yml files are easy to read and write.
+
