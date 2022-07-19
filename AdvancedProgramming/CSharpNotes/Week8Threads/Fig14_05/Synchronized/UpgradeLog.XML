@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?>
+<UpgradeLog>
+<Properties><Property Name="Solution" Value="Synchronized">
+</Property><Property Name="Solution File" Value="C:\MSCC#Programming\Week8Threads\Fig14_05\Synchronized\Synchronized.sln">
+</Property><Property Name="User Options File" Value="C:\MSCC#Programming\Week8Threads\Fig14_05\Synchronized\Synchronized.suo">
+</Property><Property Name="Date" Value="26 February 2006">
+</Property><Property Name="Time" Value="18:29">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Synchronized.sln" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_05\Synchronized\Backup\Synchronized.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Synchronized.suo" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_05\Synchronized\Backup\Synchronized.suo">
+</Event><Event ErrorLevel="0" Project="Synchronized" Source="Synchronized.csproj" Description="Project file successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_05\Synchronized\Backup\Synchronized.csproj">
+</Event><Event ErrorLevel="0" Project="Synchronized" Source="Synchronized.csproj.user" Description="Project user file successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_05\Synchronized\Backup\Synchronized.csproj.user">
+</Event><Event ErrorLevel="0" Project="Synchronized" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_05\Synchronized\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Synchronized" Source="Synchronized.cs" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_05\Synchronized\Backup\Synchronized.cs">
+</Event><Event ErrorLevel="0" Project="Synchronized" Source="App.ico" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_05\Synchronized\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="Synchronized" Source="Synchronized.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Synchronized" Source="Synchronized.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Synchronized.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Synchronized.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Synchronized" Source="Synchronized.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

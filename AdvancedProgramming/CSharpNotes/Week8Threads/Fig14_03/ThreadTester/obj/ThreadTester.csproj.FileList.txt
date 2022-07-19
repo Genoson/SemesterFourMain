@@ -1,0 +1,5 @@
+obj\Debug\ThreadTester.exe
+obj\Debug\ThreadTester.pdb
+bin\Debug\ThreadTester.exe
+bin\Debug\ThreadTester.pdb
+obj\Debug\ResolveAssemblyReference.cache

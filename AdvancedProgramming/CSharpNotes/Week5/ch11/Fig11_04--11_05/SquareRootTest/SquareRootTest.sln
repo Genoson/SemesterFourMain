@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareRootTest", "SquareRootTest.csproj", "{B678F611-B2E2-45BF-9D0C-4724AF20242F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B678F611-B2E2-45BF-9D0C-4724AF20242F}.Debug.ActiveCfg = Debug|.NET
+		{B678F611-B2E2-45BF-9D0C-4724AF20242F}.Debug.Build.0 = Debug|.NET
+		{B678F611-B2E2-45BF-9D0C-4724AF20242F}.Release.ActiveCfg = Release|.NET
+		{B678F611-B2E2-45BF-9D0C-4724AF20242F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

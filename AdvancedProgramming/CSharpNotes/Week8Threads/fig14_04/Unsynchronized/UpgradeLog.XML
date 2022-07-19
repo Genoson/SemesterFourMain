@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?>
+<UpgradeLog>
+<Properties><Property Name="Solution" Value="Unsynchronized">
+</Property><Property Name="Solution File" Value="C:\MSCC#Programming\Week8Threads\fig14_04\Unsynchronized\Unsynchronized.sln">
+</Property><Property Name="User Options File" Value="C:\MSCC#Programming\Week8Threads\fig14_04\Unsynchronized\Unsynchronized.suo">
+</Property><Property Name="Date" Value="26 February 2006">
+</Property><Property Name="Time" Value="19:34">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Unsynchronized.sln" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\fig14_04\Unsynchronized\Backup\Unsynchronized.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Unsynchronized.suo" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\fig14_04\Unsynchronized\Backup\Unsynchronized.suo">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized.csproj" Description="Project file successfully backed up as C:\MSCC#Programming\Week8Threads\fig14_04\Unsynchronized\Backup\Unsynchronized.csproj">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized.csproj.user" Description="Project user file successfully backed up as C:\MSCC#Programming\Week8Threads\fig14_04\Unsynchronized\Backup\Unsynchronized.csproj.user">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\fig14_04\Unsynchronized\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized.cs" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\fig14_04\Unsynchronized\Backup\Unsynchronized.cs">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="App.ico" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\fig14_04\Unsynchronized\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Unsynchronized" Source="Unsynchronized.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Unsynchronized.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Unsynchronized.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Unsynchronized" Source="Unsynchronized.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

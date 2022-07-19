@@ -1,0 +1,5 @@
+obj\Debug\Synchronized.exe
+obj\Debug\Synchronized.pdb
+bin\Debug\Synchronized.exe
+bin\Debug\Synchronized.pdb
+obj\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?>
+<UpgradeLog>
+<Properties><Property Name="Solution" Value="ThreadTester">
+</Property><Property Name="Solution File" Value="C:\MSCC#Programming\Week8Threads\Fig14_03\ThreadTester\ThreadTester.sln">
+</Property><Property Name="User Options File" Value="C:\MSCC#Programming\Week8Threads\Fig14_03\ThreadTester\ThreadTester.suo">
+</Property><Property Name="Date" Value="26 February 2006">
+</Property><Property Name="Time" Value="15:40">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ThreadTester.sln" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_03\ThreadTester\Backup\ThreadTester.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ThreadTester.suo" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_03\ThreadTester\Backup\ThreadTester.suo">
+</Event><Event ErrorLevel="0" Project="ThreadTester" Source="ThreadTester.csproj" Description="Project file successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_03\ThreadTester\Backup\ThreadTester.csproj">
+</Event><Event ErrorLevel="0" Project="ThreadTester" Source="ThreadTester.csproj.user" Description="Project user file successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_03\ThreadTester\Backup\ThreadTester.csproj.user">
+</Event><Event ErrorLevel="0" Project="ThreadTester" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_03\ThreadTester\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ThreadTester" Source="ThreadTester.cs" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_03\ThreadTester\Backup\ThreadTester.cs">
+</Event><Event ErrorLevel="0" Project="ThreadTester" Source="App.ico" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\Fig14_03\ThreadTester\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="ThreadTester" Source="ThreadTester.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ThreadTester" Source="ThreadTester.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ThreadTester.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ThreadTester.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ThreadTester" Source="ThreadTester.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

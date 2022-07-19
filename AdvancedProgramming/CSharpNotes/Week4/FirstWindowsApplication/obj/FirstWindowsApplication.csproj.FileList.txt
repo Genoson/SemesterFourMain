@@ -1,0 +1,16 @@
+obj\Release\FirstWindowsApplication.exe
+obj\Release\FirstWindowsApplication.pdb
+bin\Debug\FirstWindowsApplication.exe
+bin\Debug\FirstWindowsApplication.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FirstWindowsApplication.Form1.resources
+obj\Debug\FirstWindowsApplication.Properties.Resources.resources
+obj\Debug\FirstWindowsApplication.csproj.GenerateResource.Cache
+obj\Debug\FirstWindowsApplication.exe
+obj\Debug\FirstWindowsApplication.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\FirstWindowsApplication.Form1.resources
+obj\Release\FirstWindowsApplication.Properties.Resources.resources
+obj\Release\FirstWindowsApplication.csproj.GenerateResource.Cache
+bin\Release\FirstWindowsApplication.exe
+bin\Release\FirstWindowsApplication.pdb

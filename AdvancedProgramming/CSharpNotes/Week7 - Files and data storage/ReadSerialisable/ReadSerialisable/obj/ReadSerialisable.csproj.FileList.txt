@@ -1,0 +1,8 @@
+bin\Debug\ReadSerialisable.exe
+bin\Debug\ReadSerialisable.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ReadSerialisable.Properties.Resources.resources
+obj\Debug\ReadSerialisable.csproj.GenerateResource.Cache
+obj\Debug\ReadSerialisable.exe
+obj\Debug\ReadSerialisable.pdb
+obj\Debug\ReadSerialisable.Form1.resources

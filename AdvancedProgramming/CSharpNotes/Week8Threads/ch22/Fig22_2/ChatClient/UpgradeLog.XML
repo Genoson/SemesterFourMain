@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?>
+<UpgradeLog>
+<Properties><Property Name="Solution" Value="ChatClient">
+</Property><Property Name="Solution File" Value="C:\MSCC#Programming\Week8Threads\ch22\Fig22_2\ChatClient\ChatClient.sln">
+</Property><Property Name="User Options File" Value="C:\MSCC#Programming\Week8Threads\ch22\Fig22_2\ChatClient\ChatClient.suo">
+</Property><Property Name="Date" Value="26 February 2006">
+</Property><Property Name="Time" Value="11:35">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ChatClient.sln" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\ch22\Fig22_2\ChatClient\Backup\ChatClient.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ChatClient.suo" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\ch22\Fig22_2\ChatClient\Backup\ChatClient.suo">
+</Event><Event ErrorLevel="0" Project="ChatClient" Source="ChatClient.csproj" Description="Project file successfully backed up as C:\MSCC#Programming\Week8Threads\ch22\Fig22_2\ChatClient\Backup\ChatClient.csproj">
+</Event><Event ErrorLevel="0" Project="ChatClient" Source="ChatClient.csproj.user" Description="Project user file successfully backed up as C:\MSCC#Programming\Week8Threads\ch22\Fig22_2\ChatClient\Backup\ChatClient.csproj.user">
+</Event><Event ErrorLevel="0" Project="ChatClient" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\ch22\Fig22_2\ChatClient\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ChatClient" Source="Client.cs" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\ch22\Fig22_2\ChatClient\Backup\Client.cs">
+</Event><Event ErrorLevel="0" Project="ChatClient" Source="licenses.licx" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\ch22\Fig22_2\ChatClient\Backup\licenses.licx">
+</Event><Event ErrorLevel="0" Project="ChatClient" Source="Client.resx" Description="File successfully backed up as C:\MSCC#Programming\Week8Threads\ch22\Fig22_2\ChatClient\Backup\Client.resx">
+</Event><Event ErrorLevel="0" Project="ChatClient" Source="ChatClient.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ChatClient" Source="ChatClient.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ChatClient.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ChatClient.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ChatClient" Source="ChatClient.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

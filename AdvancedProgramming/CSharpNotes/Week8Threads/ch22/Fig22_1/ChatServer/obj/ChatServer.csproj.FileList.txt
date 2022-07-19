@@ -1,0 +1,7 @@
+obj\Debug\ChatServer.exe
+obj\Debug\ChatServer.pdb
+bin\Debug\ChatServer.exe
+bin\Debug\ChatServer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ChatServer.Server.resources
+obj\Debug\ChatServer.csproj.GenerateResource.Cache

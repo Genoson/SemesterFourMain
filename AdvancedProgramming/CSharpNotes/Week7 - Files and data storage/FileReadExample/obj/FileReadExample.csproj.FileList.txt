@@ -1,0 +1,16 @@
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\FileReadExample.Form1.resources
+obj\Release\FileReadExample.Properties.Resources.resources
+obj\Release\FileReadExample.csproj.GenerateResource.Cache
+bin\Release\FileReadExample.exe
+bin\Release\FileReadExample.pdb
+obj\Release\FileReadExample.exe
+obj\Release\FileReadExample.pdb
+bin\Debug\FileReadExample.exe
+bin\Debug\FileReadExample.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FileReadExample.Form1.resources
+obj\Debug\FileReadExample.Properties.Resources.resources
+obj\Debug\FileReadExample.csproj.GenerateResource.Cache
+obj\Debug\FileReadExample.exe
+obj\Debug\FileReadExample.pdb

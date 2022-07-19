@@ -1,0 +1,2 @@
+obj\Debug\SerialisableExample.exe
+obj\Debug\SerialisableExample.pdb

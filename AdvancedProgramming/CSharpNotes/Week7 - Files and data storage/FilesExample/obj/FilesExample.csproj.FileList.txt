@@ -1,0 +1,10 @@
+obj\Release\ResolveAssemblyReference.cache
+bin\Release\FilesExample.exe
+bin\Release\FilesExample.pdb
+obj\Release\FilesExample.exe
+obj\Release\FilesExample.pdb
+bin\Debug\FilesExample.exe
+bin\Debug\FilesExample.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FilesExample.exe
+obj\Debug\FilesExample.pdb

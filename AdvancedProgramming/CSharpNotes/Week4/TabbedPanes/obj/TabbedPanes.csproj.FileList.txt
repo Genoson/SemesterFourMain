@@ -1,0 +1,16 @@
+obj\Release\TabbedPanes.exe
+obj\Release\TabbedPanes.pdb
+bin\Debug\TabbedPanes.exe
+bin\Debug\TabbedPanes.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TabbedPanes.Form1.resources
+obj\Debug\TabbedPanes.Properties.Resources.resources
+obj\Debug\TabbedPanes.csproj.GenerateResource.Cache
+obj\Debug\TabbedPanes.exe
+obj\Debug\TabbedPanes.pdb
+bin\Release\TabbedPanes.exe
+bin\Release\TabbedPanes.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\TabbedPanes.Form1.resources
+obj\Release\TabbedPanes.Properties.Resources.resources
+obj\Release\TabbedPanes.csproj.GenerateResource.Cache
