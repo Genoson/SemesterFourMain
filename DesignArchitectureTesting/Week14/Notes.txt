@@ -1,0 +1,39 @@
+For the Final Sprint
+^^ The trickiest part of this sprint will be the permissions on AWS
+^^ and designing and implementing the AWS architecture we need
+^^ Refactor, refactor, refactor
+
+
+We've agreed to use my front end as the front end for the project for the entire class
+^^ we need to create a repo in a organization and work together to maintain dev ops
+
+
+Team component - Main project
+^^ hosting an API on AWS, JAVA back end (spring/boot), MySQL RDS database, and a react front end
+^^ Unit tests for the network calls are optional
+^^ unit tests for the JAVA methods are required, in a basic sense
+^^ Front end should be modified to use the new API 
+
+AWS steps:
+Steps to deploy dockers images to AWS: part 1.
+
+setup a container registry
+
+tag docker image
+
+push docker image
+
+confirm image is in registry
+
+Set up an RDS instance using MySQL free tier
+
+use Mysql workbench to connect to the RDS instance
+
+
+Individual component - Proof of coding capability
+^^ Write a binary search tree implementation in java
+^^ unit test it completely
+^^ Retool it to be truly OOP 
+
+
+Final submission - recorded teams call of a live demo of the app running on AWS

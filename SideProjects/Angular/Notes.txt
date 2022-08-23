@@ -1,0 +1,22 @@
+Angular in my notes as a part of the Vision 33 stack
+^^ however inspecting the homepage source, react was referenced....
+
+core concepts similar to react:
+Components
+Routing
+State management
+
+Angular relies more heavily on its CLI then React.
+^^ familiarize myself with the CLI early and use frequently
+
+
+Don't be afraid of the documentation, its the best source of information
+
+Angular schematics are files that define the structure of your project.
+^^ modules, components and services can all be defined as schematics
+
+
+Best practice to focus on view management in the Angular framework.
+^^ let business logic and data be separated from the view into services.
+
+

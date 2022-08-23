@@ -1,0 +1,45 @@
+The Old Gods and their associated signs are:
+
+Bast - Female with a cat head - guile, cunning, assassins
+^^ dex + 1, char +1, knowledge of poisons, Envenom(once per day)
+
+Hypnos - Formless - Time and Dreams
+^^ int + 1, wisdom +1, meaningful dreams/ prophetic dreams, Dream Eater(once per lunar cycle)
+
+Kthanid - Cyclopean, mindflayer-esque - secrets, judgement, the moons gaze
+^^ Char +2, True Sight, advantage when detecting illusions and lies (insight)
+
+Oryx - Formless, Flames - A Font of Magickal Power and Knowledge 
+^^ int + 2, overcharge(next spell has advantage and places target at disadvantage(once per day per lvl))
+
+Oztalun - A Star of shifting geometry - Law and Order, Obedience
+^^ The southern Cult of the sun follow this diety
+^^ con + 2, inspiring Presence(once per day for the next turn all allies have advantage, all foes disadvantage, free action)
+
+Nodens - A Warrior in a giant conch drawn by mystical sea creatures - The Seas and Storms
+^^ Inner Storm(3 powers usable once daily each as a free action, only one per turn)
+^^^^ Gust of Wind (haste, 1 free action and double speed this round)
+^^^^ Crashing Waves (roll a second damage die for each attack this round)
+^^^^ Thunderclap (disadvantage to all foes in 1d6x5 feet this round)
+
+Shavalyoth - Shadows and formless smoke - deception, stealth
+^^ proficiency in stealth skill, Greater invisibilty once per rest cycle (15 minutes), smoke form 1 turn (once per day)
+^^ Dex +1, Wis +1
+
+Ulthar - A wandering hermit - balance, nature, healing
+^^ wisdom + 2, knowledge of herbalism, healing touch(once per rest cycle (2d6+lvl hp)
+
+Vorvadoss - Cloaked being of smoke with flaming eyes - Rage, Fury, Destruction
+^^ str + 2, Tough Feat, intimidation linked to strength not charisma
+
+Yad-Thaddag - a series of floating multicoloured spheres - Elemental forces, magick, Love
+^^ advantage on saving throws against magick, Charm(once per day), one free cast per day (elemental spells only)
+
+Yaggdytha - A great eagle of light - Wisdom, Healing, 
+^^ char +1, wisdom +1, advantage on spells targeting allies
+
+Signless - occasionally a soul is born with no deity sign
+^^ hp + 17 + 3x(level) hp (20 at lvl 1, 23 at lvl 2...), family heirloom(minor magick item)
+
+
+

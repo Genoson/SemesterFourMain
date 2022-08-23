@@ -1,0 +1,48 @@
+Communion with the Old Gods
+^^ Taken as part of a ritual, often requiring a special location, item and a sacrifice
+^^ the player will be given the opportunity to commune with the old gods @ lvl 5, 10 and 15.
+^^ alternatives to communion also exist
+
+Communion of Flesh 
+^^ str +1, hp +2/lvl, str unlocked
+
+Communion of Heart
+^^con +2, con unlocked, dmg all sources -1
+
+Communion of Allacrity
+^^ dex +1, dex unlocked, advantage on dex saving throws
+
+Communion of Mind 
+^^ int +2, int unlocked, 1 bonus spell slot in each unlocked spell level
+
+Communion of Spirit
+^^ wisdom +1, wisdom unlocked, passive perception +3
+
+Communion of Voice
+^^ cha +2, cha unlocked, immunity to charm and silence 0
+
+The above are the base communions
+players may choose to take the same communion multiple times
+^^ in doing so the stat unlock will be replaced with a bonus of significant value
+
+All the above communions are taken as a ritual via an NPC 
+^^ the communion is taken from the corpse of the long dead nameless god
+
+It is possible to encounter a living god(or their followers) and instead take communion with it.
+^^ most easily done in the southern kingdom cult of Oztalun
+^^ these communions will offer similar yet different benefits
+^^ the player may negotiate with the god to customize these 
+
+Taking communion with the same god as your sign unlocks a synergy bonus
+^^ these will be relative to the god and the type of communion
+^^ examples:
+^^ Sign of Ulthar + Communion of Spirit(Ulthar)
+^^^^ grants all standard benefits + a spirit guide familiar accompanies the player
+^^ Sign of Ulthar + Communion of Flesh(Ulthar)
+^^^^ grants all standard benefits + a passive Regrowth effect 3HP/turn while in nature environments
+
+An example of a negotiated communion:
+^^ Communion of Flesh(Vorvadoss) 
+^^^^ "Lord I require not my voice while your flesh and mine are one"
+^^^^ standard benefits + -2 cha and +2 str
+

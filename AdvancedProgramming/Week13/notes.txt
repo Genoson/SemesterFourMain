@@ -1,0 +1,89 @@
+We are getting into the file handling work again this week
+
+File writing and reading as text files dependencies in java
+java.io.File
+java.io.FileWriter
+java.io.FileReader
+java.io.BufferedWriter
+java.io.BufferedReader
+and just so many more
+
+
+today we are covering:
+inputStream and outputStream
+
+java.io.FileInputStream // reads from a file
+java.io.FileOutputStream // writes to a file
+
+try{
+    FileInputStream fis = new FileInputStream("file.txt");
+    FileOutputStream fos = new FileOutputStream("file.txt");
+    String dataForFile;
+    byte[] data = dataForFile.getBytes();
+    while((i = fis.read()) != -1){
+        fos.write(dataForFile);
+    }
+}catch(Exception e){
+    e.printStackTrace();
+}
+
+
+Serialize and deserialize
+^^ convert object to bytes and back
+
+java.io.Serializeable - a marker interface
+java.io.ObjectOutputStream
+java.io.ObjectInputStream
+
+When you serialize an object, it is converted to bytes.
+When you deserialize an object, it is converted from bytes.
+
+to implement serialization, you need to implement the Serializable interface.
+class MyClass implements Serializable{
+    //...
+}
+
+to write the object to a file, you need to use the ObjectOutputStream class.
+ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("file.dat"));
+oos.writeObject(myObject);
+
+to read the object from a file, you need to use the ObjectInputStream class.
+ObjectInputStream ois = new ObjectInputStream(new FileInputStream("file.dat"));
+MyClass myObject = (MyClass)ois.readObject();
+
+to write many objects to a file
+ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("file.dat"));
+for(int i = 0; i < myObjects.length; i++){
+    oos.writeObject(myObjects[i]);
+}
+or 
+ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("file.dat"));
+for(MyClass myObject : myObjects){
+    oos.writeObject(myObject);
+}
+
+to read many objects from a file
+ObjectInputStream ois = new ObjectInputStream(new FileInputStream("file.dat"));
+MyClass[] myObjects = new MyClass[10];
+for(int i = 0; i < myObjects.length; i++){
+    myObjects[i] = (MyClass)ois.readObject();
+}
+or if quatity is unknown
+ObjectInputStream ois = new ObjectInputStream(new FileInputStream("file.dat"));
+ArrayList<MyClass> myObjects = new ArrayList<MyClass>();
+while(true){
+    try{
+        myObjects.add((MyClass)ois.readObject());
+    }catch(EOFException e){
+        break;
+    }
+}
+
+
+write an example and test it
+try aggregation
+
+
+
+
+

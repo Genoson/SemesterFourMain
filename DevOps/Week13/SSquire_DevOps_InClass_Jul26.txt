@@ -1,0 +1,19 @@
+Dev Ops real industry fallout from security shortcomings
+
+I chose a hack against LinkedIn from 2012
+The 2012 LinkedIn hack refers to the computer hacking of LinkedIn on June 5, 2012. 
+Passwords for nearly 6.5 million user accounts were thought to be stolen at the time. 
+^^ 165 million was the actual number determined years later
+^^^^ these were discovered for sale for 5 bitcoin total ( $2000 at the time, $100,000 today, $4 million at peak btc)
+Yevgeniy Nikulin was convicted of the crime and sentenced to 88 months in prison. 
+^^ Initial breach was determined to be from identity theft of an employee of LinkedIn.
+^^^^ It's usually the human element that fails first / causes the initial entry point
+^^ unsalted SHA-1 hashes
+^^ SHA-1 - a well known hash function/algorythm from the 90's
+^^^^ because SHA-1 was well known examples of unscrambled data is widely 
+^^^^ available and can be used to crack the encryption
+^^ unsalted - trivial to decrypt the whole batch with automated tools
+^^^^ salt - an addition to a hash algorythm that is unique to each hash 
+^^^^ salt might not make the password harder to crack, but it makes it so breaking one 
+^^^^ hashed password doesn't unlock the batch
+

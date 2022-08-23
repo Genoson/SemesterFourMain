@@ -1,0 +1,39 @@
+Reference Name 1: Peter Rawsthorne
+
+Job Title: Instructor 
+
+Relationship with applicant: Taught Full Stack Javascript and Databases courses
+
+Company: Keyin College
+
+Tel / Cell: (709) 341-7107
+
+Email: peter.rawsthorne@keyin.com
+
+ 
+
+Reference Name 2: Nick Jewczyk
+
+Job Title: Executive Chef 
+
+Relationship with applicant: My first great chef in my prior career
+
+Company: The Fifth Ticket and The Gypsy Tea Room
+
+Tel / Cell: (709) 325-6965
+
+Email: Njewczyk@gmail.com
+
+ 
+
+Reference Name 3: Wanda Tiller
+
+Job Title: Director of Industry Engagement
+
+Relationship with applicant: Manages the KPM program I partake in
+
+Company: Keyin College
+
+Tel / Cell: (709) 770-4098
+
+Email: wanda.tiller@keyin.com

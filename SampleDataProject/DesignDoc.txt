@@ -1,0 +1,16 @@
+React App Project to extend my Yelp dataset sprint project
+
+Host the entire image and mongodb datasets on AWS (13GB)
+
+Design out Core interface structure.
+1. more refined search filtering operations
+2. more refined sorting operations
+3. Business details page, dynamic generation
+4. User profile page, dynamic generation
+5. Full CRUD of User details including images
+
+Second hand projects created by this project.
+1. business and user pages can be styled individually
+2. Student projects can query these database
+3. Student contributions to the project build git experience
+

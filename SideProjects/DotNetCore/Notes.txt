@@ -1,0 +1,8 @@
+.net core
+
+ASP.net core
+
+Open source server side web application framework
+^^ dynamic web applications and services
+
+Functionally like a server side ui framework.

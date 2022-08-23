@@ -1,0 +1,15 @@
+QAP 3
+Stephen Squire
+June 15th, 2022
+
+1. I spent ~ 2 hours on this assignment.
+
+2. I used no additional resources other than the knowledge I had Acquired up to this point.
+
+3. I did not seek help from my peers.
+
+4. I did not seek help from the faculty.
+
+5. This was a great assignment to practice inheritance, abstraction and interfaces.
+I would rate this a 3/10 on the difficulty scale. There was some mental gymnastics involved
+in getting the formulas formatted correctly in the second problem.

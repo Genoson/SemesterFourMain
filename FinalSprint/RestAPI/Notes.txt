@@ -1,0 +1,190 @@
+Some notes on the requirements and the design of the sprint assignment.
+
+Re-implementation of our final sprint from semester 3
+
+Solo component - AVL balanced binary search tree in a Maven project complete with comprehensive tests.
+^^ does not need to be hooked up to the rest of the project
+^^ does not need to have a ui or database?? 
+
+Group portion - React fronted search application with a java backend and database hosted on AWS 
+^^ springboot java rest api as the back end
+^^^^ dockerize and launch on AWS elastic beanstalk
+^^ MySql database hosted on RDS and communicating with the java on elastic beanstalk 
+^^ React front end modified from my previous project
+^^^^ need to modify the front end to communicate with the new back end 
+^^^^ need to modify the front end to display the new data correctly
+
+Tasks that are 100% required:
+
+
+1. Build a restful API in a springboot maven project
+1.1. What data are we using? What shape is it?
+1.2. Will we offer more than just search functionality? (e.g. add, delete, update)
+1.3. How are we going to log the use of the API? (eg, in the database or saved to a file?)
+1.4. How are we going to validate users? (Will users be a part of the database?)
+1.5. comprehensive tests for every class and method need to be written
+
+
+2. Refactor the React base project to match the new data endpoints and shape.
+2.1. Will we style and design the front end to be more than just a functional and bare bones design?
+
+
+3. AWS environment setup and deployment
+3.1 Get a sample project fully functional and deployed ASAP
+3.1.1 An RDS instance, basic version of the project dockerized and on elastic beanstalk
+    and basic refactor of the React app in s3, this way we can be sure our AWS skills won't 
+    sink us later in the project. Ideally by Wednesday of the first week we have this task 
+    underway and/or completed.
+3.2. Security settings for the project can be as complex or slack as we want, so long as we 
+    can access the project while we demo it for the recording.
+
+
+4. Github repositories and pr workflow for the development of the project
+4.1. Create a github repository for the project and push the initial commit to the repository.
+4.2. This is a constant part of the project development, good communication and collaboration 
+    is key to a good workflow with git.
+
+
+5. record a demo of the project
+
+
+
+What do we each want to do?
+
+Steve: I'm gunna focus on getting user loggin working, top to bottom and then collaborate to host on AWS
+
+
+
+
+Ashley:
+
+
+
+
+Mike:
+
+
+
+
+Data:
+Users to log in
+^^ User_Id -> generated automatically by the database, primary key
+^^ User_Name -> unique, not null
+^^ User_Password -> not null (encrypted? hash? salt? Validated? etc)
+^^ Person_Id -> foreign key to Person table, not null
+^^^^ Person_Table
+^^^^^^ Person_Id -> primary key
+^^^^^^ First_Name -> not null
+^^^^^^ Last_Name -> not null
+^^^^^^ Email -> not null
+^^^^^^ Phone_Number -> not null
+^^^^^^ Address_Id -> foreign key to Address table, not null
+^^^^^^^^ Address_Table
+^^^^^^^^^^ Address_Id -> primary key
+^^^^^^^^^^ Street -> not null
+^^^^^^^^^^ City -> not null
+^^^^^^^^^^ Province -> not null
+^^^^^^^^^^ Postal_Code -> not null
+^^^^^^^^^^ Country -> not null
+^^ ??User_Role -> not null (admin, business, customer, etc)??
+^^ ??User_Status -> not null (active, inactive, etc)??
+^^ ??User_Created -> not null (timestamp)??
+^^ ??User_Score -> not null (integer)??
+
++
+
+AirBnB style rentals
+^^ Rental_Id -> generated automatically by the database, primary key
+^^ User_Id -> foreign key to User table, not null, represents the user who manages the rental
+^^^^ User_Table
+^^ Rental_Status -> not null (active, inactive, etc)
+^^ Rental_Created -> not null (timestamp)
+^^ Rental_Score -> not null (integer)
+^^ Rental_Type -> not null (private, shared, etc)
+^^ Rental_Price -> not null (double)
+^^ Rental_Description -> not null (string)
+^^ Address_Id -> foreign key to Address table, not null, represents the address of the rental
+^^^^ Address_Table
+
++
+
+??Reviews for rentals??
+^^ Review_Id -> generated automatically by the database, primary key
+^^ Rental_Id -> foreign key to Rental table, not null, represents the rental that the review is for
+^^^^ Rental_Table
+^^ User_Id -> foreign key to User table, not null, represents the user who wrote the review
+^^^^ User_Table
+^^ Booking_Id -> foreign key to Booking table, not null, represents the booking that the review is for
+^^^^ Booking_Table
+^^ Review_Score -> not null (integer)
+^^ Review_Description -> not null (string)
+
++
+
+??Booking requests for rentals??
+^^ Booking_Id -> generated automatically by the database, primary key
+^^ Rental_Id -> foreign key to Rental table, not null, represents the rental that the booking is for
+^^^^ Rental_Table
+^^ User_Id -> foreign key to User table, not null, represents the user who made the booking
+^^^^ User_Table
+^^ Booking_Status -> not null (pending, confirmed, finished, cancelled, etc)
+^^ Booking_Created -> not null (timestamp)
+^^ Start_Date -> not null (date)
+^^ End_Date -> not null (date)
+^^ Booking_Details -> not null (String)
+^^ Booking_Price -> not null (double) - > derived from the number of days and the rental price
+^^ Review_Id -> foreign key to Review table, not null, represents the review that the booking is for
+^^^^ Review_Table
+
+
+The ?6? Tables are:
+Person_Table - arguably redundant as we only have the User class extending Person, but I'm leaving it in for now
+User_Table
+Address_Table
+Rental_Table
+Review_Table
+Booking_Table
+
+ {
+    "userName": "testUser",
+    "password": "tst",
+    "person": {
+        "firstName": "test",
+        "lastName": "name",
+        "email": "anemail@test.com",
+        "phone": "7095555555",
+        "address":{
+            "street": "test street",
+            "city": "town",
+            "province": "NL",
+            "postalCode": "A1A1A1",
+            "country": "Canada"
+        }
+    }
+ }
+
+
+Still on the docket for this sprint:
+
+Finalize springboot design for data relationships
+^^ if Roy doesnt get back to me by end of day we will set up to refactor 
+
+Host and test snapshot of the project on AWS
+^^ connect with mysql workbench for monitoring 
+^^ test from the dev environment 
+
+Finalize the scale of searchable content for the project
+^^ develop the controller to accomodate these searches 
+^^ develop the React interface to likewise accomodate these searches
+***** We will develop the search function for: *******
+city√, street√, province√ and rental type
+**********************************
+
+Host and test the React front end on AWS
+^^ interact with the AWS springboot project
+
+Style the React app??
+
+Do a dry run of complete project
+
+Record a demo of the project

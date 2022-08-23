@@ -1,0 +1,19 @@
+QAP 2 Advanced Programming with Java
+Stephen Squire
+May 31, 2022
+
+1. This QAP took me ~ 2 hours to complete.
+
+2. I used no resources while attempting this QAP. I have been doing w3schools Java tutorial and
+all the assigned work for this course.
+
+3. No, I did not reach out for any help from my peers.
+
+4. No, I did not reach out to any Instructors for help.
+
+5. This was a fairly easy QAP as well, probably 3 out of 10. The String Practice Problem set from 
+last week was a good bit more difficult than this. 
+I never know how many comments to leave in the code, most fo the time the comments like:
+// these are the getters and setters 
+feel redundant and like unnecessary clutter to me. But I did comment some of the files that way 
+and left in some troubleshooting comments as well.

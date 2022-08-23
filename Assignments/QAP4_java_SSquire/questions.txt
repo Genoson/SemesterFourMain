@@ -1,0 +1,11 @@
+Stephen Squire QAP4 advanced java
+
+1. It took me about an hour to write this assignment.
+
+2. I only used the preexisting code base from the course to complete this assignment.
+
+3. I did not ask any of my peers for help with this assignment.
+
+4. I did not ask any instructors for help.
+
+5. This was a fairly simple assignment, 2/5 difficulty.

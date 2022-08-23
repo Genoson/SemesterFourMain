@@ -1,0 +1,59 @@
+Sprint 1 Semester 4 
+Stephen Squire, Mike O'Reilly, Ashley Fillmore
+
+*** Project goals: My interpretation ***
+
+We have been asked to develop a CLI program in Java that reads and writes text files to a local directory.
+
+The given project is to be a golf tournament management system.
+^^^ personally I think the twist into a bowling tournament managements system is an interesting diversion from the given problem.
+^^^^^ I though of adding PIzza Party as the tournament prize, adding a third object branch to the project.
+
+To model a golf tournament we will need:
+
+Member objects - probably extending an abstract class of person
+^^^ will we allow contestants to upload and manage their own scores?
+^^^ Will we have other types of Person ( organizers, media, host, etc)
+^^^^^ Will we have players and/ or the other Person classes implement interfaces that define the methods that make them unique from one another?
+
+Tournament objects - Probably an abstract class with the specific types of tournaments extending from it.
+^^^ Who/ how are tournaments instantiated?
+^^^ Specific tournament types will implement 1 or many interfaces that define the behaviours of the tournaments.
+^^^^^ Score cards and Players will be implemented as a separate classes that are aggregated into a data structure used to generate
+^^^^^ the tournament results, or current real time standings.
+^^^ will we also model the golf course as an object? or as an ENUM ( set of constants)
+^^^^^ what is the scope of this software?
+
+
+Systems in no particular order:
+CLI - Command Line Interface
+^^ all functionality of all classes will need to be executable from the command line.
+^^^^ including initial set up of the directory structure and the file structure and defining constants in a config file.
+File System - Local Directory, Object data store?
+Tournament - Creation, management, scoring, results, details
+Person - Creation, management, enrollment, details
+Golf Course - Creation, management, details (Or defined as a config file to be read into an ENUM)
+Logger - Store all programmatic events in a log file with a timestamp.
+Users - ???
+Test - Full suite of tests for each class in the project.
+^^ use mocking framework to remove dependency on external classes when testing the specifics of the classes.
+Git - Fork the project, create our branch from the fork. create a branch each off of the branch for our group. only republish to jamies repo when done
+^^^ unless asked to contribute to his repo in a more regular fashion
+
+
+
+
+
+Java - filesys
+^^ 
+Method	Type	Description
+canRead()	Boolean	Tests whether the file is readable or not
+canWrite()	Boolean	Tests whether the file is writable or not
+createNewFile()	Boolean	Creates an empty file
+delete()	Boolean	Deletes a file
+exists()	Boolean	Tests whether the file exists
+getName()	String	Returns the name of the file
+getAbsolutePath()	String	Returns the absolute pathname of the file
+length()	Long	Returns the size of the file in bytes
+list()	String[]	Returns an array of the files in the directory
+mkdir()	Boolean	Creates a directory

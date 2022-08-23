@@ -1,0 +1,18 @@
+We are liable to continue working on the same project from the past 3 weeks
+^^
+
+We are but we are going to create a docker image for it and then 
+deploy it to AWS
+
+Final Sprint is to fully host a full stack application in AWS cloud
+
+JAVA springboot back end API
+React or equivalent front end 
+Docker deployment for the backend 
+S3 bucket for the front end
+Proper authentication and authorization
+
+Docker 
+^^ image - Files, the distributable blueprint on the docker image
+
+^^ container - running process, the actual instance of the image running

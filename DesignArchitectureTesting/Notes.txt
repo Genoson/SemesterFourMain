@@ -1,0 +1,128 @@
+Notes on Kennedy's tutorial on uploading a java api to the AWS cloud and communicating with a RDS instance
+
+We have to use the learners lab 7549 to complete this sprint 
+^^ 12 hour delay on price updating
+
+There is a readme with the allowed services
+
+Kennedy then explained the concept of a controller for the API in springboot
+^^ the url endpoints that are used to communicate with the api from the front end
+^^ the controller then calls the necessary services to interact with the database
+
+Spring JPA - java persistence api
+^^ converts data from objects(pojo) to database tables
+
+Our API should have for each table in the database
+^^ a table.java file - defines the pojo
+^^ a tableRepository.java file - defines the methods that can be used to interact with the database - usually an interface
+^^ a tableController.java - defines the endpoints the front end can use to interact with the api 
+
+We need to have comprehensive constructors, getters, and setters for each table
+
+for the controller:
+@RestController - tells spring boot to use the @ResponseBody annotation
+
+@Autowired - tells spring boot to inject the necessary services into the controller
+
+@GetMapping - tells spring boot to use the @RequestMapping annotation
+@PostMapping - tells spring boot to use the @RequestMapping annotation
+@PutMapping - tells spring boot to use the @RequestMapping annotation
+@DeleteMapping - tells spring boot to use the @RequestMapping annotation
+
+@PathVariable - tells spring boot to use the @PathVariable annotation
+^^ this is used to pass in the id of the table we want to interact with
+
+JpaRepository - defines the methods that can be used to interact with the database - usually an interface
+^^ serializable and pagingAndSortingRepository and QueryByExampleExecutor are interfaces implemented by JpaRepository
+
+
+
+Create an RDS instance thats free tier, mysql, has a username and password, and is publically visible
+^^ create a security group or customize the default one to meet your needs
+^^ password autheentication
+^^ name the instance
+^^ turn off auto backup and encryption and monitoring, lowers the cost of the instance
+
+Edit the inbound rules to allow the RDS instance to connect to whatever you need 
+^^ ssh, MySql/Aurora, and http(s) - for testing we could use 0.0.0.0/0 to allow all, but this is not how it would be done in the real world
+
+Now we are able to interact with the database 
+^^ use mysql workbench to confirm this and create a database
+
+once we know it is working we can use the RDS endpoint in the application.properties file to connect to the database
+^^ this has to be the specific database endpoint not jsut the RDS endpoint
+^^ make sure to also input the username and password
+
+now we can work in the java app again, and test its connection using postman and the RDS  instance
+^^ if the tests all work out we can move on to hosting the api on AWS
+
+Now we can run mvn clean package to build the jar file
+We can then create a docker image of the jar file
+
+Docker file containts:
+FROM java:8-jdk-alpine
+COPY target/spring-boot-app-0.0.1-SNAPSHOT.jar /app.jar
+ENTRYPOINT ["java", "-jar", "/app.jar"]
+
+then we build the docker image:
+docker build -t scripts/springrest-1.0 . 
+
+you can use docker hub to store the image  in a Repository
+docker push scripts/springrest-1.0 <repository name>
+
+
+then we need to create an elastic beanstalk
+^^ give a name
+^^ choose docker as the platform
+^^ upload the code
+^^^^  we should create a Dockerrun.aws.json file
+^^^^ this script will be used to run the docker image
+^^^^ it contains a reference to the image we just uploaded
+^^^^ it also contains the port that we want to expose and its mapping
+{
+"AWSEBDockerrunVersion":1.0,
+"Image":{
+"Name":"scripts/springrest-1.0",  // <- is supposed to be the repo on dockerhub
+"Update":"true"
+},
+
+"Ports":[
+{
+"ContainerPort":8080,
+"HostPort":8080
+}
+]
+}
+^^ example dockerrun file
+
+upload the dockerrun or the docker file to elastic beanstalk
+
+then configure more options
+
+Service role
+^^ we cant create one but use the provided one
+
+virtual machine permissions 
+^^ use the provided values
+
+best not to let elastic beanstalk create the RDS set up 
+
+then create the elastic beanstalk instance 
+
+Now we need to configure/create the security groups to allow the elastic beanstalk to connect to the RDS instance
+^^ add a rule to the RDS security group to allow the elastic beanstalk to connect to the RDS instance
+
+We can set up the RDS information in the environment properties of the elastic beanstalk instance
+
+elastic beanstalk logs for troubleshooting can be accessed and downloaded
+
+
+once we have reached this point we won't need postman to test we can use the urls 
+to target the app
+
+
+
+
+
+
+

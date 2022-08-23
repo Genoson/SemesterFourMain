@@ -1,0 +1,12 @@
+C Sharp 
+
+Similar overall to java and the other C languages.
+^^ object oriented
+^^ .net framework
+
+Learn and produce C# fundamentals code up to the level in Java I have achieved thus far
+
+
+?? what is a project manager in C# ??
+
+?? What is the preferred C# IDE ??

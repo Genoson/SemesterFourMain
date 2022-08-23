@@ -1,0 +1,41 @@
+Very early quest:
+
+A bridge thats broken. 
+Party should be able to cross the river, but the cart won't so they need a solution
+Enter the troll, he just chilling, napping even, not far from the bridge, upstram along the shore.
+Past him, you see a shallows and sand bar. but the cart wont fit past him.
+
+Fight the troll? (bad decision)
+^^ AC 15
+^^ HP 84
+^^ troll regeneration
+^^ multiattack, one bite 2 claws
+^^^^ bite +7 hit 1d6+4
+^^^^ claw +7 hit 2d6+4
+
+Wake the troll and negotiate?
+^^ he is surprisingly eloquent
+^^ complains about some goblins
+^^^^ They keep saying "uhh, Goblins are better than trolls"
+^^^^ and "Filthy trolls are uglier than they are stupid"
+^^^^ Bring me their balls and I'll let you pass
+
+Goblins live in a burnt out and collapsing tower, 
+maybe an old mages tower, 
+maybe an old rangers watch tower
+
+3 outside
+^^ stealth take down possible
+
+6 more inside, ones a boss
+^^ Loudly singing and cooking 
+
+5 on patrol
+^^ only return if its important to the story... 
+ie: the tutorial guide needs to die, or the party blow something up
+
+
+Return with goblin balls and troll eats them like candy.
+Thanks you and trundles on his way
+
+
